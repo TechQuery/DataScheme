@@ -1,0 +1,14 @@
+{
+  "coverage": "75%",
+  "expectCount": 4,
+  "actualCount": 3,
+  "files": {
+    "source/DataScheme.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        31
+      ]
+    }
+  }
+}

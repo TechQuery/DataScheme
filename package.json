@@ -12,7 +12,7 @@
   ],
   "author": "shiy2008@gmail.com",
   "license": "LGPL-3.0",
-  "homepage": "https://github.com/TechQuery/DataScheme#readme",
+  "homepage": "https://techquery.github.io/DataScheme/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TechQuery/DataScheme.git"
@@ -20,23 +20,42 @@
   "bugs": {
     "url": "https://github.com/TechQuery/DataScheme/issues"
   },
-  "main": "index.js",
+  "main": "dist/DataScheme.js",
+  "module": "source/DataScheme.js",
   "engines": {
     "node": "^6.3.0"
   },
   "scripts": {
     "lint": "eslint source/ test/ --fix",
     "test": "mocha --exit",
-    "debug": "mocha --inspect-brk"
+    "debug": "mocha --inspect-brk",
+    "pack": "babel source/ -d dist/  &&  esdoc",
+    "build": "npm run lint  &&  npm test  &&  npm run pack",
+    "start": "web-server docs/ -o",
+    "prepublishOnly": "npm run build"
+  },
+  "husky": {
+    "hook": {
+      "pre-commit": "npm run build  &&  git add ."
+    }
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/plugin-proposal-decorators": "^7.1.0",
-    "@babel/polyfill": "^7.0.0",
+    "@babel/plugin-transform-modules-umd": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0",
     "babel-eslint": "^10.0.1",
+    "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.6.0",
+    "husky": "^1.0.1",
+    "koapache": "^1.0.4",
     "mocha": "^5.2.0",
     "should": "^13.2.3"
   },
@@ -50,7 +69,8 @@
         {
           "legacy": true
         }
-      ]
+      ],
+      "@babel/plugin-transform-modules-umd"
     ]
   }
 }

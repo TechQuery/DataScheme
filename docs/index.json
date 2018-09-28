@@ -1,0 +1,852 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "source/DataScheme.js",
+    "content": "/**\n * @param {Object} meta - Key for Name & Value for `Function` / `RegExp`\n *\n * @return {function(Class: Function): void} Class decorator for Data Scheme\n */\nexport function schemeOf(meta) {\n\n    return  Class => {\n\n        Object.defineProperty(Class, 'meta', {\n            value:       meta,\n            enmuerable:  true\n        });\n\n        for (let key in meta) {\n\n            if (!(meta[key] instanceof Array))  meta[key] = [ meta[key] ];\n\n            Object.defineProperty(Class.prototype, key, {\n                set:         value => Class.set(key, value),\n                enmuerable:  true\n            });\n        }\n    };\n}\n\n@schemeOf({\n    id:    Number,\n    name:  String\n})\nexport default  class DataScheme {\n    /**\n     * @param {Function|RegExp} scheme\n     * @param {*}               value\n     *\n     * @return {Boolean}\n     */\n    static check(scheme, value) {\n\n        if (scheme instanceof Function) {\n\n            if (global[scheme.name] === scheme) {\n\n                if (Object(value) instanceof scheme)  return true;\n            } else\n                return  scheme( value );\n\n        } else if (scheme instanceof RegExp)\n            return  scheme.test(value + '');\n\n        return false;\n    }\n\n    /**\n     * @param {String} key\n     * @param {*}      value\n     */\n    static set(key, value) {\n\n        const scheme = this.meta[ key ];\n\n        if (! scheme.some(item  =>  this.check(item, value)))\n            throw TypeError(\n                `\"${key}\" of ${this.name} should be a ${\n                    scheme.map(item  =>  (item.name || item + '')).join(' / ')\n                }`\n            );\n    }\n}\n",
+    "static": true,
+    "longname": "D:/TechQuery/DataScheme/source/DataScheme.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "schemeOf",
+    "memberof": "source/DataScheme.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/DataScheme.js~schemeOf",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/DataScheme.js",
+    "importStyle": "{schemeOf}",
+    "description": "",
+    "lineNumber": 6,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "meta",
+        "description": "Key for Name & Value for `Function` / `RegExp`"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function(Class: Function): void"
+      ],
+      "spread": false,
+      "description": "Class decorator for Data Scheme"
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "DataScheme",
+    "memberof": "source/DataScheme.js",
+    "static": true,
+    "longname": "source/DataScheme.js~DataScheme",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/DataScheme.js",
+    "importStyle": "DataScheme",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "decorators": [
+      {
+        "name": "schemeOf",
+        "arguments": "({\n  id: Number,\n  name: String\n})"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 51,
+    "kind": "method",
+    "name": "check",
+    "memberof": "source/DataScheme.js~DataScheme",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/DataScheme.js~DataScheme.check",
+    "access": "public",
+    "description": "",
+    "lineNumber": 38,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function",
+          "RegExp"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "scheme",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "set",
+    "memberof": "source/DataScheme.js~DataScheme",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/DataScheme.js~DataScheme.set",
+    "access": "public",
+    "description": "",
+    "lineNumber": 58,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "# Data Scheme\n\n**Data Model** framework based on [ECMAScript Decorator proposal](https://github.com/tc39/proposal-decorators)\n\n[![NPM Dependency](https://david-dm.org/TechQuery/DataScheme.svg)](https://david-dm.org/TechQuery/DataScheme)\n\n[![NPM](https://nodei.co/npm/data-scheme.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/data-scheme/)\n\n\n\n## Usage\n\n### Installation\n\n```Shell\nnpm install data-scheme\nnpm install @babel/cli \\\n    @babel/core \\\n    @babel/preset-env \\\n    @babel/plugin-proposal-decorators\n```\n\n### Configuration\n\n```JSON\n{\n    \"presets\": [\n        \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n        [\n            \"@babel/plugin-proposal-decorators\",\n            {\n                \"legacy\": true\n            }\n        ]\n    ]\n}\n```\n\n### Coding\n\n```JavaScript\nimport DataScheme, { schemeOf } from 'data-scheme';\n\n@schemeOf({\n    email:  /.+?@(.+?\\.){1,}\\w+/,\n    phone:  /[0-9+-]{7,}/\n})\nexport class User extends DataScheme { }\n\nconst user = new User();\n\nuser.name = 'test';\nuser.email = 'test@example.com';\nuser.phone = '+86-028-88888888';\n```\n\n[Test cases](https://techquery.github.io/DataScheme/test-file/test/DataScheme.js.html#lineNumber29)\n",
+    "longname": "D:\\TechQuery\\DataScheme\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"data-scheme\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Data Model framework based on ECMAScript Decorator proposal\",\n  \"keywords\": [\n    \"data\",\n    \"scheme\",\n    \"model\",\n    \"framework\",\n    \"ecmascript\",\n    \"decorator\"\n  ],\n  \"author\": \"shiy2008@gmail.com\",\n  \"license\": \"LGPL-3.0\",\n  \"homepage\": \"https://techquery.github.io/DataScheme/\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechQuery/DataScheme.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/TechQuery/DataScheme/issues\"\n  },\n  \"main\": \"dist/DataScheme.js\",\n  \"module\": \"source/DataScheme.js\",\n  \"engines\": {\n    \"node\": \"^6.3.0\"\n  },\n  \"scripts\": {\n    \"lint\": \"eslint source/ test/ --fix\",\n    \"test\": \"mocha --exit\",\n    \"debug\": \"mocha --inspect-brk\",\n    \"pack\": \"babel source/ -d dist/  &&  esdoc\",\n    \"build\": \"npm run lint  &&  npm test  &&  npm run pack\",\n    \"start\": \"web-server docs/ -o\",\n    \"prepublishOnly\": \"npm run build\"\n  },\n  \"husky\": {\n    \"hook\": {\n      \"pre-commit\": \"npm run build  &&  git add .\"\n    }\n  },\n  \"dependencies\": {\n    \"@babel/polyfill\": \"^7.0.0\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"^7.1.0\",\n    \"@babel/core\": \"^7.1.0\",\n    \"@babel/plugin-proposal-decorators\": \"^7.1.0\",\n    \"@babel/plugin-transform-modules-umd\": \"^7.1.0\",\n    \"@babel/preset-env\": \"^7.1.0\",\n    \"@babel/register\": \"^7.0.0\",\n    \"babel-eslint\": \"^10.0.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.6.0\",\n    \"husky\": \"^1.0.1\",\n    \"koapache\": \"^1.0.4\",\n    \"mocha\": \"^5.2.0\",\n    \"should\": \"^13.2.3\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n      [\n        \"@babel/plugin-proposal-decorators\",\n        {\n          \"legacy\": true\n        }\n      ],\n      \"@babel/plugin-transform-modules-umd\"\n    ]\n  }\n}\n",
+    "longname": "D:\\TechQuery\\DataScheme\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "__docId__": 53,
+    "kind": "testFile",
+    "name": "test/DataScheme.js",
+    "content": "import DataScheme, { schemeOf } from '../source/DataScheme';\n\n\ndescribe('Data Scheme',  () => {\n    /**\n     * @test {DataScheme.check}\n     */\n    describe('Check schemes',  () => {\n\n        it(\n            'Global Type',\n            ()  =>  DataScheme.check(Number, 1).should.be.true()\n        );\n\n        it(\n            'Custom Callback',\n            ()  =>  DataScheme.check(value => !value,  0).should.be.true()\n        );\n\n        it(\n            'Regular Expression',\n            ()  =>  DataScheme.check(/test/, 'example').should.be.false()\n        );\n    });\n\n    /**\n     * @test {schemeOf}\n     */\n    describe('Decorate classes',  () => {\n\n        it('Base class',  () => {\n\n            const data = new DataScheme();\n\n            (() => data.id = '').should.throw(\n                '\"id\" of DataScheme should be a Number'\n            );\n        });\n\n        it('Implementation class',  () => {\n\n            @schemeOf({\n                email:  /.+?@(.+?\\.){1,}\\w+/,\n                phone:  /[0-9+-]{7,}/\n            })\n            class User extends DataScheme { }\n\n            const user = new User();\n\n            (()  =>  (user.name = 'TechQuery', user.email = '@gmail.com'))\n                .should.throw(\n                    '\"email\" of User should be a /.+?@(.+?\\\\.){1,}\\\\w+/'\n                );\n        });\n    });\n});\n",
+    "static": true,
+    "longname": "D:/TechQuery/DataScheme/test/DataScheme.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "test",
+    "name": "describe0",
+    "testId": 0,
+    "memberof": "test/DataScheme.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0",
+    "access": null,
+    "description": "Data Scheme",
+    "lineNumber": 4
+  },
+  {
+    "__docId__": 55,
+    "kind": "test",
+    "name": "describe1",
+    "testId": 1,
+    "memberof": "test/DataScheme.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe1",
+    "access": null,
+    "description": "Check schemes",
+    "lineNumber": 8,
+    "testTargets": [
+      "DataScheme.check"
+    ]
+  },
+  {
+    "__docId__": 56,
+    "kind": "test",
+    "name": "it2",
+    "testId": 2,
+    "memberof": "test/DataScheme.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe1.it2",
+    "access": null,
+    "description": "Global Type",
+    "lineNumber": 10
+  },
+  {
+    "__docId__": 57,
+    "kind": "test",
+    "name": "it3",
+    "testId": 3,
+    "memberof": "test/DataScheme.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe1.it3",
+    "access": null,
+    "description": "Custom Callback",
+    "lineNumber": 15
+  },
+  {
+    "__docId__": 58,
+    "kind": "test",
+    "name": "it4",
+    "testId": 4,
+    "memberof": "test/DataScheme.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe1.it4",
+    "access": null,
+    "description": "Regular Expression",
+    "lineNumber": 20
+  },
+  {
+    "__docId__": 59,
+    "kind": "test",
+    "name": "describe5",
+    "testId": 5,
+    "memberof": "test/DataScheme.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe5",
+    "access": null,
+    "description": "Decorate classes",
+    "lineNumber": 29,
+    "testTargets": [
+      "schemeOf"
+    ]
+  },
+  {
+    "__docId__": 60,
+    "kind": "test",
+    "name": "it6",
+    "testId": 6,
+    "memberof": "test/DataScheme.js~describe0.describe5",
+    "testDepth": 2,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe5.it6",
+    "access": null,
+    "description": "Base class",
+    "lineNumber": 31
+  },
+  {
+    "__docId__": 61,
+    "kind": "test",
+    "name": "it7",
+    "testId": 7,
+    "memberof": "test/DataScheme.js~describe0.describe5",
+    "testDepth": 2,
+    "static": true,
+    "longname": "test/DataScheme.js~describe0.describe5.it7",
+    "access": null,
+    "description": "Implementation class",
+    "lineNumber": 40
+  }
+]

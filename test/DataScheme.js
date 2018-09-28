@@ -1,4 +1,4 @@
-import { DataScheme, schemeOf } from '../source/DataScheme';
+import DataScheme, { schemeOf } from '../source/DataScheme';
 
 
 describe('Data Scheme',  () => {

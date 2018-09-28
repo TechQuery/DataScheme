@@ -22,8 +22,17 @@
         "quotes": ["error", "single"],
         "semi": ["error", "always"],
         "no-cond-assign": "off",
+        "getter-return": "warn",
         "no-console": ["error", {
             "allow": ["info", "warn", "error", "time", "timeEnd"]
+        }],
+        "valid-jsdoc": ["error", {
+            "prefer": {
+                "returns": "return"
+            },
+            "requireParamDescription": false,
+            "requireReturn": false,
+            "requireReturnDescription": false
         }]
     }
 }

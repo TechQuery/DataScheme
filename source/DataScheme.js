@@ -1,7 +1,7 @@
 /**
  * @param {Object} meta - Key for Name & Value for `Function` / `RegExp`
  *
- * @return {(Class: Function): void} Class decorator for Data Scheme
+ * @return {function(Class: Function): void} Class decorator for Data Scheme
  */
 export function schemeOf(meta) {
 
@@ -28,7 +28,7 @@ export function schemeOf(meta) {
     id:    Number,
     name:  String
 })
-export class DataScheme {
+export default  class DataScheme {
     /**
      * @param {Function|RegExp} scheme
      * @param {*}               value
