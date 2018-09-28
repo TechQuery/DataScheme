@@ -1,0 +1,56 @@
+{
+  "name": "data-scheme",
+  "version": "0.1.0",
+  "description": "Data Model framework based on ECMAScript Decorator proposal",
+  "keywords": [
+    "data",
+    "scheme",
+    "model",
+    "framework",
+    "ecmascript",
+    "decorator"
+  ],
+  "author": "shiy2008@gmail.com",
+  "license": "LGPL-3.0",
+  "homepage": "https://github.com/TechQuery/DataScheme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechQuery/DataScheme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TechQuery/DataScheme/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "^6.3.0"
+  },
+  "scripts": {
+    "lint": "eslint source/ test/ --fix",
+    "test": "mocha --exit",
+    "debug": "mocha --inspect-brk"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ]
+  }
+}
