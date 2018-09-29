@@ -1,26 +1,45 @@
 /**
- * @param {Object} meta - Key for Name & Value for `Function` / `RegExp`
+ * @param {Object} field - Key for Name & Value for `Function` / `RegExp`
  *
  * @return {function(Class: Function): void} Class decorator for Data Scheme
  */
-export function schemeOf(meta) {
+export function schemeOf(field) {
 
-    return  Class => {
+    return  meta => {
 
-        Object.defineProperty(Class, 'meta', {
-            value:       meta,
-            enmuerable:  true
+        meta.elements.push({
+            kind:         'field',
+            key:          'meta',
+            placement:    'static',
+            descriptor:   {enumerable: true},
+            initializer:  () => field
         });
 
-        for (let key in meta) {
+        for (let key in field) {
 
-            if (!(meta[key] instanceof Array))  meta[key] = [ meta[key] ];
+            if (!(field[key] instanceof Array))  field[key] = [ field[key] ];
 
-            Object.defineProperty(Class.prototype, key, {
-                set:         value => Class.set(key, value),
-                enmuerable:  true
+            meta.elements.push({
+                kind:        'method',
+                key,
+                placement:   'prototype',
+                descriptor:  {
+                    set:         function (value) {
+
+                        this.constructor.set(key, value);
+                    },
+                    enmuerable:  true
+                }
             });
         }
+
+        meta.finisher = Class => {
+
+            const Super = Object.getPrototypeOf( Class );
+
+            if (Super.meta instanceof Object)
+                Object.setPrototypeOf(Class.meta, Super.meta);
+        };
     };
 }
 

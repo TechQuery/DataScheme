@@ -31,34 +31,56 @@
     
   <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/source/DataScheme.js~DataScheme.html">DataScheme</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-schemeOf">schemeOf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Range">Range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Email">Email</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Phone">Phone</a></span></span></li>
 </ul>
 </div>
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">source/DataScheme.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
- * @param {Object} meta - Key for Name &amp; Value for `Function` / `RegExp`
+ * @param {Object} field - Key for Name &amp; Value for `Function` / `RegExp`
  *
  * @return {function(Class: Function): void} Class decorator for Data Scheme
  */
-export function schemeOf(meta) {
+export function schemeOf(field) {
 
-    return  Class =&gt; {
+    return  meta =&gt; {
 
-        Object.defineProperty(Class, &apos;meta&apos;, {
-            value:       meta,
-            enmuerable:  true
+        meta.elements.push({
+            kind:         &apos;field&apos;,
+            key:          &apos;meta&apos;,
+            placement:    &apos;static&apos;,
+            descriptor:   {enumerable: true},
+            initializer:  () =&gt; field
         });
 
-        for (let key in meta) {
+        for (let key in field) {
 
-            if (!(meta[key] instanceof Array))  meta[key] = [ meta[key] ];
+            if (!(field[key] instanceof Array))  field[key] = [ field[key] ];
 
-            Object.defineProperty(Class.prototype, key, {
-                set:         value =&gt; Class.set(key, value),
-                enmuerable:  true
+            meta.elements.push({
+                kind:        &apos;method&apos;,
+                key,
+                placement:   &apos;prototype&apos;,
+                descriptor:  {
+                    set:         function (value) {
+
+                        this.constructor.set(key, value);
+                    },
+                    enmuerable:  true
+                }
             });
         }
+
+        meta.finisher = Class =&gt; {
+
+            const Super = Object.getPrototypeOf( Class );
+
+            if (Super.meta instanceof Object)
+                Object.setPrototypeOf(Class.meta, Super.meta);
+        };
     };
 }
 

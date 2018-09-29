@@ -1,6 +1,6 @@
 {
   "name": "data-scheme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Data Model framework based on ECMAScript Decorator proposal",
   "keywords": [
     "data",
@@ -21,7 +21,7 @@
     "url": "https://github.com/TechQuery/DataScheme/issues"
   },
   "main": "dist/DataScheme.js",
-  "module": "source/DataScheme.js",
+  "module": "source/index.js",
   "engines": {
     "node": "^6.3.0"
   },
@@ -29,8 +29,8 @@
     "lint": "eslint source/ test/ --fix",
     "test": "mocha --exit",
     "debug": "mocha --inspect-brk",
-    "pack": "babel source/ -d dist/  &&  esdoc",
-    "build": "npm run lint  &&  npm test  &&  npm run pack",
+    "pack": "amd-bundle source/index dist/DataScheme",
+    "build": "npm run lint  &&  npm test  &&  npm run pack  &&  esdoc",
     "start": "web-server docs/ -o",
     "prepublishOnly": "npm run build"
   },
@@ -43,12 +43,10 @@
     "@babel/polyfill": "^7.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
     "@babel/plugin-proposal-decorators": "^7.1.0",
-    "@babel/plugin-transform-modules-umd": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0",
+    "amd-bundle": "^1.6.0",
     "babel-eslint": "^10.0.1",
     "esdoc": "^1.1.0",
     "esdoc-ecmascript-proposal-plugin": "^1.0.0",
@@ -67,10 +65,9 @@
       [
         "@babel/plugin-proposal-decorators",
         {
-          "legacy": true
+          "decoratorsBeforeExport": true
         }
-      ],
-      "@babel/plugin-transform-modules-umd"
+      ]
     ]
   }
 }

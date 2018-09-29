@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | data-scheme</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">test/index.js | data-scheme</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -38,52 +38,30 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="data-scheme">Data Scheme</h1><p><strong>Data Model</strong> framework based on <a href="https://github.com/tc39/proposal-decorators">ECMAScript Decorator proposal</a></p>
-<p><a href="https://david-dm.org/TechQuery/DataScheme"><img src="https://david-dm.org/TechQuery/DataScheme.svg" alt="NPM Dependency"></a></p>
-<p><a href="https://nodei.co/npm/data-scheme/"><img src="https://nodei.co/npm/data-scheme.png?downloads=true&amp;downloadRank=true&amp;stars=true" alt="NPM"></a></p>
-<h2 id="usage">Usage</h2><h3 id="installation">Installation</h3><pre><code class="lang-Shell"><code class="source-code prettyprint">npm install data-scheme
-npm install @babel/cli \
-    @babel/core \
-    @babel/preset-env \
-    @babel/plugin-proposal-decorators</code>
-</code></pre>
-<h3 id="configuration">Configuration</h3><pre><code class="lang-JSON"><code class="source-code prettyprint">{
-    &quot;presets&quot;: [
-        &quot;@babel/preset-env&quot;
-    ],
-    &quot;plugins&quot;: [
-        [
-            &quot;@babel/plugin-proposal-decorators&quot;,
-            {
-                &quot;decoratorsBeforeExport&quot;: true
-            }
-        ]
-    ]
-}</code>
-</code></pre>
-<h3 id="coding">Coding</h3><pre><code class="lang-JavaScript"><code class="source-code prettyprint">import DataScheme, { schemeOf, Email, Phone } from &apos;data-scheme&apos;;
+<div class="content" data-ice="content"><h1 data-ice="title">test/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import DataScheme, { schemeOf, Range } from &apos;../source&apos;;
 
-@schemeOf({
-    email:  Email,
-    phone:  Phone
-})
-export class User extends DataScheme { }
 
-const user = new User();
+describe(&apos;Scheme Helper&apos;,  () =&gt; {
+    /**
+     * @test {Range}
+     */
+    it(&apos;Number range&apos;,  () =&gt; {
 
-user.name = &apos;test&apos;;
-user.email = &apos;test@example.com&apos;;
-user.phone = &apos;+86-028-88888888&apos;;</code>
+        @schemeOf({
+            version:  Range(1, 9, 2)
+        })
+        class App extends DataScheme { }
+
+        const app = new App();
+
+        (() =&gt; app.version = 4).should.throw(
+            &apos;&quot;version&quot; of App should be a Range(1,9,2)&apos;
+        );
+    });
+});
 </code></pre>
-<p><a href="https://techquery.github.io/DataScheme/test-file/test/DataScheme.js.html#lineNumber29">Test cases</a></p>
-<h2 id="scheme-helper">Scheme Helper</h2><p><a href="https://techquery.github.io/DataScheme/file/source/index.js.html">https://techquery.github.io/DataScheme/file/source/index.js.html</a></p>
-<h2 id="learn-more">Learn more</h2><ol>
-<li><p><a href="https://github.com/tc39/proposal-decorators/blob/master/METAPROGRAMMING.md">Meta programming</a></p>
-</li>
-<li><p><a href="https://github.com/tc39/proposal-decorators/blob/master/TAXONOMY.md">Decorator API (Stage-2)</a></p>
-</li>
-</ol>
-</div>
+
 </div>
 
 <footer class="footer">

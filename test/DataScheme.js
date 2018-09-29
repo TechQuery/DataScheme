@@ -1,7 +1,7 @@
-import DataScheme, { schemeOf } from '../source/DataScheme';
+import DataScheme, { schemeOf, Email, Phone } from '../source';
 
 
-describe('Data Scheme',  () => {
+describe('Core',  () => {
     /**
      * @test {DataScheme.check}
      */
@@ -40,8 +40,8 @@ describe('Data Scheme',  () => {
         it('Implementation class',  () => {
 
             @schemeOf({
-                email:  /.+?@(.+?\.){1,}\w+/,
-                phone:  /[0-9+-]{7,}/
+                email:  Email,
+                phone:  Phone
             })
             class User extends DataScheme { }
 

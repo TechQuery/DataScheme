@@ -31,7 +31,7 @@ npm install @babel/cli \
         [
             "@babel/plugin-proposal-decorators",
             {
-                "legacy": true
+                "decoratorsBeforeExport": true
             }
         ]
     ]
@@ -41,11 +41,11 @@ npm install @babel/cli \
 ### Coding
 
 ```JavaScript
-import DataScheme, { schemeOf } from 'data-scheme';
+import DataScheme, { schemeOf, Email, Phone } from 'data-scheme';
 
 @schemeOf({
-    email:  /.+?@(.+?\.){1,}\w+/,
-    phone:  /[0-9+-]{7,}/
+    email:  Email,
+    phone:  Phone
 })
 export class User extends DataScheme { }
 
@@ -57,3 +57,17 @@ user.phone = '+86-028-88888888';
 ```
 
 [Test cases](https://techquery.github.io/DataScheme/test-file/test/DataScheme.js.html#lineNumber29)
+
+
+
+## Scheme Helper
+
+https://techquery.github.io/DataScheme/file/source/index.js.html
+
+
+
+## Learn more
+
+ 1. [Meta programming](https://github.com/tc39/proposal-decorators/blob/master/METAPROGRAMMING.md)
+
+ 2. [Decorator API (Stage-2)](https://github.com/tc39/proposal-decorators/blob/master/TAXONOMY.md)

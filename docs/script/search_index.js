@@ -6,6 +6,24 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "data-scheme/source/index.js~email",
+    "variable/index.html#static-variable-Email",
+    "<span>Email</span> <span class=\"search-result-import-path\">data-scheme/source/index.js</span>",
+    "variable"
+  ],
+  [
+    "data-scheme/source/index.js~phone",
+    "variable/index.html#static-variable-Phone",
+    "<span>Phone</span> <span class=\"search-result-import-path\">data-scheme/source/index.js</span>",
+    "variable"
+  ],
+  [
+    "data-scheme/source/index.js~range",
+    "function/index.html#static-function-Range",
+    "<span>Range</span> <span class=\"search-result-import-path\">data-scheme/source/index.js</span>",
+    "function"
+  ],
+  [
     "data-scheme/source/datascheme.js~schemeof",
     "function/index.html#static-function-schemeOf",
     "<span>schemeOf</span> <span class=\"search-result-import-path\">data-scheme/source/DataScheme.js</span>",
@@ -14,49 +32,61 @@ window.esdocSearchIndex = [
   [
     "",
     "test-file/test/DataScheme.js.html#lineNumber4",
-    "Data Scheme",
+    "Core",
     "test"
   ],
   [
     "datascheme.check source/datascheme.js~datascheme.check,datascheme.check",
     "test-file/test/DataScheme.js.html#lineNumber8",
-    "Data Scheme Check schemes",
+    "Core Check schemes",
     "test"
   ],
   [
     "",
     "test-file/test/DataScheme.js.html#lineNumber15",
-    "Data Scheme Check schemes Custom Callback",
+    "Core Check schemes Custom Callback",
     "test"
   ],
   [
     "",
     "test-file/test/DataScheme.js.html#lineNumber10",
-    "Data Scheme Check schemes Global Type",
+    "Core Check schemes Global Type",
     "test"
   ],
   [
     "",
     "test-file/test/DataScheme.js.html#lineNumber20",
-    "Data Scheme Check schemes Regular Expression",
+    "Core Check schemes Regular Expression",
     "test"
   ],
   [
     "schemeof source/datascheme.js~schemeof,schemeof",
     "test-file/test/DataScheme.js.html#lineNumber29",
-    "Data Scheme Decorate classes",
+    "Core Decorate classes",
     "test"
   ],
   [
     "",
     "test-file/test/DataScheme.js.html#lineNumber31",
-    "Data Scheme Decorate classes Base class",
+    "Core Decorate classes Base class",
     "test"
   ],
   [
     "",
     "test-file/test/DataScheme.js.html#lineNumber40",
-    "Data Scheme Decorate classes Implementation class",
+    "Core Decorate classes Implementation class",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/index.js.html#lineNumber4",
+    "Scheme Helper",
+    "test"
+  ],
+  [
+    "range source/index.js~range,range",
+    "test-file/test/index.js.html#lineNumber8",
+    "Scheme Helper Number range",
     "test"
   ],
   [
@@ -360,9 +390,21 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "source/index.js",
+    "file/source/index.js.html",
+    "source/index.js",
+    "file"
+  ],
+  [
     "test/datascheme.js",
     "test-file/test/DataScheme.js.html",
     "test/DataScheme.js",
+    "testFile"
+  ],
+  [
+    "test/index.js",
+    "test-file/test/index.js.html",
+    "test/index.js",
     "testFile"
   ]
 ]

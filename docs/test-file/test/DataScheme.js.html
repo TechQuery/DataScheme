@@ -31,15 +31,18 @@
     
   <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/source/DataScheme.js~DataScheme.html">DataScheme</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-schemeOf">schemeOf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Range">Range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Email">Email</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Phone">Phone</a></span></span></li>
 </ul>
 </div>
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">test/DataScheme.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import DataScheme, { schemeOf } from &apos;../source/DataScheme&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import DataScheme, { schemeOf, Email, Phone } from &apos;../source&apos;;
 
 
-describe(&apos;Data Scheme&apos;,  () =&gt; {
+describe(&apos;Core&apos;,  () =&gt; {
     /**
      * @test {DataScheme.check}
      */
@@ -78,8 +81,8 @@ describe(&apos;Data Scheme&apos;,  () =&gt; {
         it(&apos;Implementation class&apos;,  () =&gt; {
 
             @schemeOf({
-                email:  /.+?@(.+?\.){1,}\w+/,
-                phone:  /[0-9+-]{7,}/
+                email:  Email,
+                phone:  Phone
             })
             class User extends DataScheme { }
 
