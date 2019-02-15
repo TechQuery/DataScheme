@@ -4,6 +4,8 @@
 
 [![NPM Dependency](https://david-dm.org/TechQuery/DataScheme.svg)](https://david-dm.org/TechQuery/DataScheme)
 
+[![Build Status](https://travis-ci.com/TechQuery/DataScheme.svg?branch=master)](https://travis-ci.com/TechQuery/DataScheme)
+
 [![NPM](https://nodei.co/npm/data-scheme.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/data-scheme/)
 
 
@@ -13,8 +15,10 @@
 ### Installation
 
 ```Shell
-npm install data-scheme
-npm install @babel/cli \
+npm install data-scheme @babel/polyfill
+
+npm install -D \
+    @babel/cli \
     @babel/core \
     @babel/preset-env \
     @babel/plugin-proposal-decorators
@@ -40,29 +44,74 @@ npm install @babel/cli \
 
 ### Coding
 
+[`User.js`](https://github.com/TechQuery/DataScheme/blob/master/test/source/User.js)
+
 ```JavaScript
-import DataScheme, { schemeOf, Email, Phone } from 'data-scheme';
+import Model, { mapGetter, is, Range, Email, Phone, URL } from 'data-scheme';
 
-@schemeOf({
-    email:  Email,
-    phone:  Phone
-})
-export class User extends DataScheme { }
 
-const user = new User();
+@mapGetter
+export default  class User extends Model {
 
-user.name = 'test';
-user.email = 'test@example.com';
-user.phone = '+86-028-88888888';
+    constructor(data) {  super(data);  }
+
+    @is(/^[\w-]{3,20}$/, '')
+    set name(value) {  this.set('name', value);  }
+
+    @is(Email, '')
+    set email(value) {  this.set('email', value);  }
+
+    @is( Phone )
+    set phone(value) {  this.set('phone', value);  }
+
+    @is([0, 1, 2],  2)
+    set gender(value) {  this.set('gender', value);  }
+
+    @is(Range( 1900 ))
+    set birthYear(value) {  this.set('birthYear', value);  }
+
+    @is(URL, 'http://example.com/test.jpg')
+    set avatar(value) {  this.set('avatar', value);  }
+
+    @is( URL )
+    set URL(value) {  this.set('URL', value);  }
+
+    @is( String )
+    set description(value) {  this.set('description', value);  }
+}
 ```
 
-[Test cases](https://techquery.github.io/DataScheme/test-file/test/DataScheme.js.html#lineNumber29)
+`index.js`
 
+```JavaScript
+import User from './User';
+
+const user = new User({
+    name: 'test',
+    email: 'test@example.com'
+});
+
+user.phone = '+86-028-88888888';
+
+console.log( user.valueOf() );
+```
+
+**Console output**
+
+```JSON
+{
+    "name": "test",
+    "email": "test@example.com",
+    "gender": 2,
+    "avatar": "http://example.com/test.jpg",
+    "phone": "+86-028-88888888"
+}
+```
 
 
 ## Scheme Helper
 
-https://techquery.github.io/DataScheme/file/source/index.js.html
+https://tech-query.me/DataScheme/file/source/scheme.js.html
 
 
 

@@ -1,6 +1,6 @@
-docs/
-test/
 .editorconfig
 .eslintrc.json
+test/
 .esdoc.json
-.github/
+docs/
+.travis.yml
