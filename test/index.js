@@ -1,4 +1,4 @@
-import User from './source/User';
+import User, { Admin } from './source/User';
 
 
 const key_list = [
@@ -38,10 +38,10 @@ describe('Scheme class',  () => {
         user = new User({email: 'test@example.com', name: 'test'});
 
         user.valueOf().should.be.eql({
-            name: 'test',
-            email: 'test@example.com',
-            gender: 2,
-            avatar: 'http://example.com/test.jpg'
+            name:    'test',
+            email:   'test@example.com',
+            gender:  2,
+            avatar:  'http://example.com/test.jpg'
         });
     });
 
@@ -65,5 +65,27 @@ describe('Scheme class',  () => {
                 '"birthYear" of User should be in range of [1900, Infinity] with step 1'
             )
         )
+    );
+
+    /**
+     * @test {Model#forEach}
+     * @test {is}
+     */
+    it('Inherited & Nested Model',  () =>
+
+        (new Admin({email: 'admin@example.com', name: 'admin'})).valueOf()
+            .should.be.eql({
+                name:    'admin',
+                email:   'admin@example.com',
+                level:   1,
+                author:  {
+                    user:  2,
+                    post:  2,
+                    file:  1,
+                    log:   0
+                },
+                gender:  2,
+                avatar:  'http://example.com/admin.jpg'
+            })
     );
 });

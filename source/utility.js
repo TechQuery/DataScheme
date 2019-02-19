@@ -12,6 +12,25 @@ export function typeOf(object) {
 
 
 /**
+ * @param {Function} func
+ *
+ * @return {Boolean}
+ */
+export function isClass(func) {  return  /^class\W/.test(func + '');  }
+
+
+/**
+ * @param {*} object
+ *
+ * @yield {Object}
+ */
+export function* walkPrototype(object) {
+
+    while (object = Object.getPrototypeOf( object ))  yield object;
+}
+
+
+/**
  * @typedef {Object} DecoratorDescriptor
  *
  * @property {String}                kind         - `class`, `field` or `method`

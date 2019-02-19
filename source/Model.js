@@ -1,3 +1,6 @@
+import { walkPrototype } from './utility';
+
+
 /**
  * @abstract
  */
@@ -18,12 +21,15 @@ export default class Model extends Map {
      */
     forEach(callback) {
 
-        const prototype = Object.getPrototypeOf( this );
+        for (const prototype  of  walkPrototype( this )) {
 
-        const scheme = Object.getOwnPropertyDescriptors( prototype );
+            if (prototype === Model.prototype)  break;
 
-        for (let key in scheme)
-            if ( scheme[key].set )  callback(this.get(key), key, this);
+            const scheme = Object.getOwnPropertyDescriptors( prototype );
+
+            for (let key in scheme)
+                if ( scheme[key].set )  callback(this.get(key), key, this);
+        }
     }
 
     /**
@@ -35,7 +41,7 @@ export default class Model extends Map {
 
         this.forEach((value, key)  =>  {
 
-            if (this.has( key ))  data[key] = value;
+            if (this.has( key ))  data[key] = value ? value.valueOf() : value;
         });
 
         return data;

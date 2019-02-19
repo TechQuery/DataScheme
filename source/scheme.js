@@ -30,7 +30,7 @@ export const Email = /^.+?@(.+?\.){1,}\w+$/;
 /**
  * @type {RegExp}
  */
-export const URL = /^\w+:\S+$/;
+export const URI = /^\w+:\S+$/;
 
 /**
  * @type {RegExp}

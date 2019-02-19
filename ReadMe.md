@@ -44,7 +44,7 @@ npm install -D \
 
 ### Coding
 
-[`User.js`](https://github.com/TechQuery/DataScheme/blob/master/test/source/User.js)
+[`User.js`](https://tech-query.me/DataScheme/test-file/test/source/User.js.html)
 
 ```JavaScript
 import Model, { mapGetter, is, Range, Email, Phone, URL } from 'data-scheme';
@@ -52,8 +52,6 @@ import Model, { mapGetter, is, Range, Email, Phone, URL } from 'data-scheme';
 
 @mapGetter
 export default  class User extends Model {
-
-    constructor(data) {  super(data);  }
 
     @is(/^[\w-]{3,20}$/, '')
     set name(value) {  this.set('name', value);  }
@@ -109,9 +107,11 @@ console.log( user.valueOf() );
 ```
 
 
-## Scheme Helper
+## Advanced usage
 
-https://tech-query.me/DataScheme/file/source/scheme.js.html
+ - [Scheme Helper](https://tech-query.me/DataScheme/file/source/scheme.js.html)
+
+ - [Inherited & Nested Model](https://tech-query.me/DataScheme/test-file/test/source/User.js.html#lineNumber33)
 
 
 

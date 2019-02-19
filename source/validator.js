@@ -1,4 +1,6 @@
-import { typeOf } from './utility';
+import { typeOf, isClass } from './utility';
+
+import Model from './Model';
 
 
 const base_type = [Number, String, Boolean, Date, RegExp, Object, Array];
@@ -7,15 +9,20 @@ function check(value, condition, key, data) {
 
     const type = typeOf( data );
 
-    if (base_type.includes(condition)) {
+    if (base_type.includes( condition )  ||  isClass( condition )) {
 
         if (Object(value) instanceof String)  try {
 
-            value = JSON.parse(value);
+            value = JSON.parse( value );
 
         } catch (error) {/**/}
 
-        if (Object( value ).constructor  !==  condition)
+        value = Object( value );
+
+        if (
+            (condition === Object)  ?
+                (value.constructor !== Object)  :  !(value instanceof condition)
+        )
             throw TypeError(`"${key}" of ${type} should be ${condition.name}`);
 
     } else if (condition instanceof Function) {
@@ -54,13 +61,14 @@ export function is(condition, defaultValue) {
 
             value = (value != null) ? value : defaultValue;
 
-            if (value != null) {
+            if (!(value != null))  return this.delete( key );
 
+            if (condition.prototype instanceof Model)
+                value = new condition( value );
+            else
                 check(value, condition, key, this);
 
-                origin.call(this, value);
-            } else
-                this.delete( key );
+            origin.call(this, value);
         };
     };
 }
