@@ -2,6 +2,8 @@ import { typeOf, isClass } from './utility';
 
 import Model from './Model';
 
+import { trigger } from './hook';
+
 
 const base_type = [Number, String, Boolean, Date, RegExp, Object, Array];
 
@@ -53,7 +55,9 @@ function check(value, condition, key, data) {
  */
 export function is(condition, defaultValue) {
 
-    return  ({ key, descriptor }) => {
+    return  meta => {
+
+        const { kind, placement, key, descriptor } = meta;
 
         const origin = descriptor.set;
 
@@ -69,6 +73,11 @@ export function is(condition, defaultValue) {
                 check(value, condition, key, this);
 
             origin.call(this, value);
+        };
+
+        meta.finisher = Class => {
+
+            trigger('is',  {Class, kind, placement, key, descriptor});
         };
     };
 }

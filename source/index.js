@@ -7,3 +7,5 @@ export * from './Model';
 export * from './validator';
 
 export * from './scheme';
+
+export * from './hook';

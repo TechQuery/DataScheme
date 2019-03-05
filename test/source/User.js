@@ -1,6 +1,8 @@
-import Model, { mapGetter, is, Range, Email, Phone, URI } from '../../source';
+import Model, { mapGetter, is, Range, Email, Phone, URI, HTTP } from '../../source';
 
 
+@HTTP('POST', '/user')
+@HTTP('GET', '/user')
 @mapGetter
 export default  class User extends Model {
 

@@ -1,3 +1,5 @@
+import { HTTP_hook, is_hook } from './source/hook';
+
 import User, { Admin } from './source/User';
 
 
@@ -88,4 +90,33 @@ describe('Scheme class',  () => {
                 avatar:  'http://example.com/admin.jpg'
             })
     );
+
+    /**
+     * @test {HTTP}
+     * @test {listen}
+     * @test {trigger}
+     */
+    it('Decorator Hook',  () => {
+
+        HTTP_hook.should.match([
+            {
+                Class:        User,
+                method:       'GET',
+                path:         '/user',
+                contentType:  'application/json'
+            },
+            {
+                Class:        User,
+                method:       'POST',
+                path:         '/user',
+                contentType:  'application/json'
+            }
+        ]);
+
+        is_hook.should.be.eql(
+            key_list.concat(
+                'user', 'post', 'file', 'log', 'level', 'author', 'avatar'
+            )
+        );
+    });
 });

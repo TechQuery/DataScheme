@@ -3,46 +3,14 @@
 **Data Model** framework based on [ECMAScript Decorator proposal](https://github.com/tc39/proposal-decorators)
 
 [![NPM Dependency](https://david-dm.org/TechQuery/DataScheme.svg)](https://david-dm.org/TechQuery/DataScheme)
-
 [![Build Status](https://travis-ci.com/TechQuery/DataScheme.svg?branch=master)](https://travis-ci.com/TechQuery/DataScheme)
+[![](https://data.jsdelivr.com/v1/package/npm/data-scheme/badge?style=rounded)](https://www.jsdelivr.com/package/npm/data-scheme)
 
 [![NPM](https://nodei.co/npm/data-scheme.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/data-scheme/)
 
 
 
-## Usage
-
-### Installation
-
-```Shell
-npm install data-scheme @babel/polyfill
-
-npm install -D \
-    @babel/cli \
-    @babel/core \
-    @babel/preset-env \
-    @babel/plugin-proposal-decorators
-```
-
-### Configuration
-
-```JSON
-{
-    "presets": [
-        "@babel/preset-env"
-    ],
-    "plugins": [
-        [
-            "@babel/plugin-proposal-decorators",
-            {
-                "decoratorsBeforeExport": true
-            }
-        ]
-    ]
-}
-```
-
-### Coding
+## Basic Example
 
 [`User.js`](https://tech-query.me/DataScheme/test-file/test/source/User.js.html)
 
@@ -85,8 +53,8 @@ export default  class User extends Model {
 import User from './User';
 
 const user = new User({
-    name: 'test',
-    email: 'test@example.com'
+    name:   'test',
+    email:  'test@example.com'
 });
 
 user.phone = '+86-028-88888888';
@@ -107,12 +75,76 @@ console.log( user.valueOf() );
 ```
 
 
+## Installation
+
+```Shell
+npm install data-scheme @babel/polyfill
+
+npm install -D \
+    @babel/cli \
+    @babel/core \
+    @babel/preset-env \
+    @babel/plugin-proposal-decorators
+```
+
+`.babelrc`
+
+```JSON
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "decoratorsBeforeExport": true
+            }
+        ]
+    ]
+}
+```
+
+
 ## Advanced usage
 
  - [Scheme Helper](https://tech-query.me/DataScheme/file/source/scheme.js.html)
 
  - [Inherited & Nested Model](https://tech-query.me/DataScheme/test-file/test/source/User.js.html#lineNumber33)
 
+
+### Decorator hook
+
+`hook.js`
+
+```JavaScript
+import { listen } from 'data-scheme';
+
+listen('HTTP',  ({Class, method, path, contentType}) =>
+    console.log(Class, method, path, contentType)
+);
+```
+
+`User.js`
+
+```JavaScript
+import Model, { mapGetter, HTTP } from 'data-scheme';
+
+@HTTP('POST', '/user')
+@HTTP('GET', '/user')
+@mapGetter
+export default  class User extends Model {
+    //  Field defination
+}
+```
+
+`index.js`
+
+```JavaScript
+import './hook';
+
+import User from './User';
+```
 
 
 ## Learn more
