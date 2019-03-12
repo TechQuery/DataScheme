@@ -113,6 +113,26 @@ npm install -D \
  - [Inherited & Nested Model](https://tech-query.me/DataScheme/test-file/test/source/User.js.html#lineNumber33)
 
 
+### Observe Values changing
+
+```JavaScript
+import User from './User';
+
+const user = new User({
+    name:   'test',
+    email:  'test@example.com'
+});
+
+user.observe({
+    name(value, oldValue) {
+
+        console.log(value, oldValue);    //  'example' 'test'
+    }
+});
+
+user.name = 'example';
+```
+
 ### Decorator hook
 
 `hook.js`

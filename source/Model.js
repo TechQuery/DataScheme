@@ -1,6 +1,9 @@
 import { walkPrototype } from './utility';
 
 
+const model_observer = Symbol('Model observer');
+
+
 /**
  * @abstract
  */
@@ -12,6 +15,8 @@ export default class Model extends Map {
 
         if (super().constructor === Model)
             throw TypeError('Model() is an Abstract Class');
+
+        this[model_observer] = { };
 
         this.forEach((value, key)  =>  (this[key] = data[key]));
     }
@@ -46,7 +51,61 @@ export default class Model extends Map {
 
         return data;
     }
+
+    /**
+     * @param {Object} keyHandler - Keys for Property names, Values for {@link ValueChangedHandler}
+     */
+    observe(keyHandler) {
+
+        const map = this[model_observer];
+
+        for (let key in keyHandler)
+            (map[key] = map[key] || [ ]).push( keyHandler[key] );
+    }
+
+    /**
+     * @param {Object} keyHandler - Keys for Property names, Values for {@link ValueChangedHandler}
+     */
+    unobserve(keyHandler) {
+
+        const map = this[model_observer];
+
+        for (let key in keyHandler)
+            if ( map[key] ) {
+
+                const index = map[key].indexOf( keyHandler[key] );
+
+                if (index > -1)  map[key].splice(index, 1);
+            }
+    }
+
+    /**
+     * @param {*} key
+     * @param {*} value
+     *
+     * @return {Model}
+     */
+    set(key, value) {
+
+        const old = this.get( key );
+
+        if (old !== value) {
+
+            super.set(key, value);
+
+            (this[model_observer][key]  ||  [ ]).forEach(
+                handler  =>  handler(value, old)
+            );
+        }
+
+        return this;
+    }
 }
+
+
+/**
+ * @typedef {function(value: *, oldValue: *): *} ValueChangedHandler
+ */
 
 
 /**

@@ -2,6 +2,8 @@ import { HTTP_hook, is_hook } from './source/hook';
 
 import User, { Admin } from './source/User';
 
+import { spy } from 'sinon';
+
 
 const key_list = [
     'name', 'email', 'phone', 'gender', 'birthYear', 'avatar', 'URL', 'description'
@@ -118,5 +120,21 @@ describe('Scheme class',  () => {
                 'user', 'post', 'file', 'log', 'level', 'author', 'avatar'
             )
         );
+    });
+
+    /**
+     * @test {Model#observe}
+     * @test {Model#set}
+     */
+    it('Observe key-value changed',  () => {
+
+        const handler = {name: spy()};
+
+        user.observe( handler );
+
+        user.name = 'example', user.name = 'example';
+
+        handler.name.should.be.calledOnce();
+        handler.name.should.be.calledWith('example', 'test');
     });
 });
