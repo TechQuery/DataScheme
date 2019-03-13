@@ -1,8 +1,8 @@
-import { typeOf, isClass } from './utility';
+import { typeOf, isClass } from './utility/index';
 
 import Model from './Model';
 
-import { trigger } from './hook';
+import { trigger } from './hook/index';
 
 
 const base_type = [Number, String, Boolean, Date, RegExp, Object, Array];

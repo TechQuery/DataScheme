@@ -1,6 +1,6 @@
 {
   "name": "data-scheme",
-  "version": "0.7.0",
+  "version": "0.7.3",
   "description": "Data Model framework based on ECMAScript Decorator proposal",
   "keywords": [
     "data",

@@ -115,11 +115,7 @@ describe('Scheme class',  () => {
             }
         ]);
 
-        is_hook.should.be.eql(
-            key_list.concat(
-                'user', 'post', 'file', 'log', 'level', 'author', 'avatar'
-            )
-        );
+        is_hook.should.be.eql( key_list );
     });
 
     /**

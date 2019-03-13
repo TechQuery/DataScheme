@@ -1,4 +1,4 @@
-import { walkPrototype } from './utility';
+import { walkPrototype } from './utility/index';
 
 
 const model_observer = Symbol('Model observer');
@@ -93,19 +93,22 @@ export default class Model extends Map {
 
             super.set(key, value);
 
+            /**
+             * @typedef {Function} ValueChangedHandler
+             *
+             * @this {Model}
+             *
+             * @param {*} value
+             * @param {*} oldValue
+             */
             (this[model_observer][key]  ||  [ ]).forEach(
-                handler  =>  handler(value, old)
+                handler  =>  handler.call(this, value, old)
             );
         }
 
         return this;
     }
 }
-
-
-/**
- * @typedef {function(value: *, oldValue: *): *} ValueChangedHandler
- */
 
 
 /**
