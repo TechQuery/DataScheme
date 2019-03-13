@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | data-scheme</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Data Model framework based on ECMAScript Decorator proposal"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="data-scheme"><meta property="twitter:description" content="Data Model framework based on ECMAScript Decorator proposal"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/TechQuery/DataScheme"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/source/Model.js~Model.html">Model</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mapGetter">mapGetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-is">is</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ValueChangedHandler">ValueChangedHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ModelValueHandler">ModelValueHandler</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#hook">hook</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HTTP">HTTP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-listen">listen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trigger">trigger</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#scheme">scheme</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HTTP_URL">HTTP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPA">IPA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPv4">IPv4</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPv6">IPv6</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Range">Range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Email">Email</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Phone">Phone</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URI">URI</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utility">utility</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isClass">isClass</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-typeOf">typeOf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-walkPrototype">walkPrototype</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-DecoratorDescriptor">DecoratorDescriptor</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="data-scheme">Data Scheme</h1><p><strong>Data Model</strong> framework based on <a href="https://github.com/tc39/proposal-decorators">ECMAScript Decorator proposal</a></p>
+<p><a href="https://david-dm.org/TechQuery/DataScheme"><img src="https://david-dm.org/TechQuery/DataScheme.svg" alt="NPM Dependency"></a>
+<a href="https://travis-ci.com/TechQuery/DataScheme"><img src="https://travis-ci.com/TechQuery/DataScheme.svg?branch=master" alt="Build Status"></a>
+<a href="https://www.jsdelivr.com/package/npm/data-scheme"><img src="https://data.jsdelivr.com/v1/package/npm/data-scheme/badge?style=rounded" alt=""></a></p>
+<p><a href="https://nodei.co/npm/data-scheme/"><img src="https://nodei.co/npm/data-scheme.png?downloads=true&amp;downloadRank=true&amp;stars=true" alt="NPM"></a></p>
+<h2 id="basic-example">Basic Example</h2><p><a href="https://tech-query.me/DataScheme/test-file/test/source/User.js.html"><code>User.js</code></a></p>
+<pre><code class="lang-JavaScript"><code class="source-code prettyprint">import Model, { mapGetter, is, Range, Email, Phone, URL } from &apos;data-scheme&apos;;
+
+
+@mapGetter
+export default  class User extends Model {
+
+    @is(/^[\w-]{3,20}$/, &apos;&apos;)
+    set name(value) {  this.set(&apos;name&apos;, value);  }
+
+    @is(Email, &apos;&apos;)
+    set email(value) {  this.set(&apos;email&apos;, value);  }
+
+    @is( Phone )
+    set phone(value) {  this.set(&apos;phone&apos;, value);  }
+
+    @is([0, 1, 2],  2)
+    set gender(value) {  this.set(&apos;gender&apos;, value);  }
+
+    @is(Range( 1900 ))
+    set birthYear(value) {  this.set(&apos;birthYear&apos;, value);  }
+
+    @is(URL, &apos;http://example.com/test.jpg&apos;)
+    set avatar(value) {  this.set(&apos;avatar&apos;, value);  }
+
+    @is( URL )
+    set URL(value) {  this.set(&apos;URL&apos;, value);  }
+
+    @is( String )
+    set description(value) {  this.set(&apos;description&apos;, value);  }
+}</code>
+</code></pre>
+<p><code>index.js</code></p>
+<pre><code class="lang-JavaScript"><code class="source-code prettyprint">import User from &apos;./User&apos;;
+
+const user = new User({
+    name:   &apos;test&apos;,
+    email:  &apos;test@example.com&apos;
+});
+
+user.phone = &apos;+86-028-88888888&apos;;
+
+console.log( user.valueOf() );</code>
+</code></pre>
+<p><strong>Console output</strong></p>
+<pre><code class="lang-JSON"><code class="source-code prettyprint">{
+    &quot;name&quot;: &quot;test&quot;,
+    &quot;email&quot;: &quot;test@example.com&quot;,
+    &quot;gender&quot;: 2,
+    &quot;avatar&quot;: &quot;http://example.com/test.jpg&quot;,
+    &quot;phone&quot;: &quot;+86-028-88888888&quot;
+}</code>
+</code></pre>
+<h2 id="installation">Installation</h2><pre><code class="lang-Shell"><code class="source-code prettyprint">npm install data-scheme @babel/polyfill
+
+npm install -D \
+    @babel/cli \
+    @babel/core \
+    @babel/preset-env \
+    @babel/plugin-proposal-decorators</code>
+</code></pre>
+<p><code>.babelrc</code></p>
+<pre><code class="lang-JSON"><code class="source-code prettyprint">{
+    &quot;presets&quot;: [
+        &quot;@babel/preset-env&quot;
+    ],
+    &quot;plugins&quot;: [
+        [
+            &quot;@babel/plugin-proposal-decorators&quot;,
+            {
+                &quot;decoratorsBeforeExport&quot;: true
+            }
+        ]
+    ]
+}</code>
+</code></pre>
+<h2 id="advanced-usage">Advanced usage</h2><ul>
+<li><p><a href="https://tech-query.me/DataScheme/file/source/scheme.js.html">Scheme Helper</a></p>
+</li>
+<li><p><a href="https://tech-query.me/DataScheme/test-file/test/source/User.js.html#lineNumber33">Inherited &amp; Nested Model</a></p>
+</li>
+</ul>
+<h3 id="observe-values-changing">Observe Values changing</h3><pre><code class="lang-JavaScript"><code class="source-code prettyprint">import User from &apos;./User&apos;;
+
+const user = new User({
+    name:   &apos;test&apos;,
+    email:  &apos;test@example.com&apos;
+});
+
+user.observe({
+    name(value, oldValue) {
+
+        console.log(value, oldValue);    //  &apos;example&apos; &apos;test&apos;
+    }
+});
+
+user.name = &apos;example&apos;;</code>
+</code></pre>
+<h3 id="decorator-hook">Decorator hook</h3><p><code>hook.js</code></p>
+<pre><code class="lang-JavaScript"><code class="source-code prettyprint">import { listen } from &apos;data-scheme&apos;;
+
+listen(&apos;HTTP&apos;,  ({Class, method, path, contentType}) =&gt;
+    console.log(Class, method, path, contentType)
+);</code>
+</code></pre>
+<p><code>User.js</code></p>
+<pre><code class="lang-JavaScript"><code class="source-code prettyprint">import Model, { mapGetter, HTTP } from &apos;data-scheme&apos;;
+
+@HTTP(&apos;POST&apos;, &apos;/user&apos;)
+@HTTP(&apos;GET&apos;, &apos;/user&apos;)
+@mapGetter
+export default  class User extends Model {
+    //  Field defination
+}</code>
+</code></pre>
+<p><code>index.js</code></p>
+<pre><code class="lang-JavaScript"><code class="source-code prettyprint">import &apos;./hook&apos;;
+
+import User from &apos;./User&apos;;</code>
+</code></pre>
+<h2 id="learn-more">Learn more</h2><ol>
+<li><p><a href="https://github.com/tc39/proposal-decorators/blob/master/METAPROGRAMMING.md">Meta programming</a></p>
+</li>
+<li><p><a href="https://github.com/tc39/proposal-decorators/blob/master/TAXONOMY.md">Decorator API (Stage-2)</a></p>
+</li>
+</ol>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

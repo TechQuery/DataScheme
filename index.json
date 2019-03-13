@@ -1,0 +1,2047 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "source/.external-ecmascript.js",
+    "static": true,
+    "longname": "source/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "source/Model.js",
+    "content": "import { walkPrototype } from './utility/index';\n\n\nconst model_observer = Symbol('Model observer');\n\n\n/**\n * @abstract\n */\nexport default class Model extends Map {\n    /**\n     * @param {Object} [data={}]\n     */\n    constructor(data = {}) {\n\n        if (super().constructor === Model)\n            throw TypeError('Model() is an Abstract Class');\n\n        this[model_observer] = { };\n\n        this.forEach((value, key)  =>  (this[key] = data[key]));\n    }\n\n    /**\n     * @param {ModelValueHandler} callback\n     */\n    forEach(callback) {\n\n        for (const prototype  of  walkPrototype( this )) {\n\n            if (prototype === Model.prototype)  break;\n\n            const scheme = Object.getOwnPropertyDescriptors( prototype );\n\n            for (let key in scheme)\n                if ( scheme[key].set )  callback(this.get(key), key, this);\n        }\n    }\n\n    /**\n     * @return {Object}\n     */\n    valueOf() {\n\n        const data = { };\n\n        this.forEach((value, key)  =>  {\n\n            if (this.has( key ))  data[key] = value ? value.valueOf() : value;\n        });\n\n        return data;\n    }\n\n    /**\n     * @param {Object} keyHandler - Keys for Property names, Values for {@link ValueChangedHandler}\n     */\n    observe(keyHandler) {\n\n        const map = this[model_observer];\n\n        for (let key in keyHandler)\n            (map[key] = map[key] || [ ]).push( keyHandler[key] );\n    }\n\n    /**\n     * @param {Object} keyHandler - Keys for Property names, Values for {@link ValueChangedHandler}\n     */\n    unobserve(keyHandler) {\n\n        const map = this[model_observer];\n\n        for (let key in keyHandler)\n            if ( map[key] ) {\n\n                const index = map[key].indexOf( keyHandler[key] );\n\n                if (index > -1)  map[key].splice(index, 1);\n            }\n    }\n\n    /**\n     * @param {*} key\n     * @param {*} value\n     *\n     * @return {Model}\n     */\n    set(key, value) {\n\n        const old = this.get( key );\n\n        if (old !== value) {\n\n            super.set(key, value);\n\n            /**\n             * @typedef {Function} ValueChangedHandler\n             *\n             * @this {Model}\n             *\n             * @param {*} value\n             * @param {*} oldValue\n             */\n            (this[model_observer][key]  ||  [ ]).forEach(\n                handler  =>  handler.call(this, value, old)\n            );\n        }\n\n        return this;\n    }\n}\n\n\n/**\n * Class Decorator to set same name Getters of existed Setters\n *\n * @param {DecoratorDescriptor} meta\n */\nexport function mapGetter({ elements }) {\n\n    elements.forEach(({ key, placement, descriptor })  =>  {\n\n        if ((placement === 'prototype')  &&  descriptor.set  &&  !descriptor.get)\n            descriptor.get = function () {\n\n                return  this.get( key );\n            };\n    });\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/source/Model.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "model_observer",
+    "memberof": "source/Model.js",
+    "static": true,
+    "longname": "source/Model.js~model_observer",
+    "access": "public",
+    "export": false,
+    "importPath": "data-scheme/source/Model.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "Model",
+    "memberof": "source/Model.js",
+    "static": true,
+    "longname": "source/Model.js~Model",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/Model.js",
+    "importStyle": "Model",
+    "description": "",
+    "lineNumber": 10,
+    "abstract": true,
+    "interface": false,
+    "extends": [
+      "Map"
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "source/Model.js~Model",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "source/Model.js~Model#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "data",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "[model_observer]",
+    "memberof": "source/Model.js~Model",
+    "static": false,
+    "longname": "source/Model.js~Model#[model_observer]",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "forEach",
+    "memberof": "source/Model.js~Model",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "source/Model.js~Model#forEach",
+    "access": "public",
+    "description": "",
+    "lineNumber": 27,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "ModelValueHandler"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "callback",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "valueOf",
+    "memberof": "source/Model.js~Model",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "source/Model.js~Model#valueOf",
+    "access": "public",
+    "description": "",
+    "lineNumber": 43,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "observe",
+    "memberof": "source/Model.js~Model",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "source/Model.js~Model#observe",
+    "access": "public",
+    "description": "",
+    "lineNumber": 58,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "keyHandler",
+        "description": "Keys for Property names, Values for {@link ValueChangedHandler}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "unobserve",
+    "memberof": "source/Model.js~Model",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "source/Model.js~Model#unobserve",
+    "access": "public",
+    "description": "",
+    "lineNumber": 69,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "keyHandler",
+        "description": "Keys for Property names, Values for {@link ValueChangedHandler}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "set",
+    "memberof": "source/Model.js~Model",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "source/Model.js~Model#set",
+    "access": "public",
+    "description": "",
+    "lineNumber": 88,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Model"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "typedef",
+    "name": "ValueChangedHandler",
+    "memberof": "source/Model.js~Model",
+    "static": true,
+    "longname": "source/Model.js~Model.ValueChangedHandler",
+    "access": "public",
+    "description": "",
+    "lineNumber": 104,
+    "unknown": [
+      {
+        "tagName": "@this",
+        "tagValue": "{Model}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "oldValue",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Function"
+      ],
+      "optional": false,
+      "name": "ValueChangedHandler"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "mapGetter",
+    "memberof": "source/Model.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/Model.js~mapGetter",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/Model.js",
+    "importStyle": "{mapGetter}",
+    "description": "Class Decorator to set same name Getters of existed Setters",
+    "lineNumber": 119,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "DecoratorDescriptor"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "meta",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "source/hook/index.js",
+    "content": "const hook = { };\n\n\n/**\n * Hook listener\n *\n * @param {String}                       name\n * @param {function(data: Object): void} handler\n */\nexport function listen(name, handler) {\n\n    (hook[name] = hook[name] || [ ]).push( handler );\n}\n\n\n/**\n * Hook trigger\n *\n * @param {String} name\n * @param {Object} data\n */\nexport function trigger(name, data) {\n\n    if ( hook[name] )  hook[name].forEach(func  =>  func( data ));\n}\n\n\n/**\n * Hookable decorator for RESTful API\n *\n * @param {String} method\n * @param {String} path\n * @param {String} [contentType='application/json']\n *\n * @return {function(meta: DecoratorDescriptor): void}\n */\nexport function HTTP(\n    method,  path,  contentType = 'application/json'\n) {\n    return  meta => {\n\n        meta.finisher = (Class) => {\n\n            trigger('HTTP',  {Class, method, path, contentType});\n        };\n    };\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/source/hook/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "hook",
+    "memberof": "source/hook/index.js",
+    "static": true,
+    "longname": "source/hook/index.js~hook",
+    "access": "public",
+    "export": false,
+    "importPath": "data-scheme/source/hook/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "listen",
+    "memberof": "source/hook/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/hook/index.js~listen",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/hook/index.js",
+    "importStyle": "{listen}",
+    "description": "Hook listener",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(data: Object): void"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "handler",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "trigger",
+    "memberof": "source/hook/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/hook/index.js~trigger",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/hook/index.js",
+    "importStyle": "{trigger}",
+    "description": "Hook trigger",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "HTTP",
+    "memberof": "source/hook/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/hook/index.js~HTTP",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/hook/index.js",
+    "importStyle": "{HTTP}",
+    "description": "Hookable decorator for RESTful API",
+    "lineNumber": 37,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "method",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'application/json'",
+        "defaultRaw": "'application/json'",
+        "name": "contentType",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function(meta: DecoratorDescriptor): void"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "source/index.js",
+    "content": "export * from './utility/index';\n\nexport { default } from './Model';\n\nexport * from './Model';\n\nexport * from './validator';\n\nexport * from './scheme/index';\n\nexport * from './hook/index';\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/source/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "source/scheme/index.js",
+    "content": "import { typeOf } from '../utility/index';\n\n\n/**\n * @param {Number} [min=-Infinity]\n * @param {Number} [max=+Infinity]\n * @param {Number} [step=1]\n *\n * @return {ModelValueHandler}\n */\nexport function Range(min, max, step = 1) {\n\n    min = (min != null)  ?  min  :  -Infinity,\n    max = (max != null)  ?  max  :  +Infinity;\n\n    return  (value, key, data) => {\n\n        if ((min > value)  ||  (value > max)  ||  ((value - min) % step))\n            throw RangeError(\n                `\"${key}\" of ${typeOf( data )} should be in range of [${min}, ${max}] with step ${step}`\n            );\n    };\n}\n\n/**\n * @type {RegExp}\n */\nexport const Email = /^.+?@(.+?\\.){1,}\\w+$/;\n\n/**\n * @type {RegExp}\n */\nexport const URI = /^\\w+:\\S+$/;\n\n/**\n * @type {RegExp}\n */\nexport const Phone = /^[0-9+-]{7,}$/;\n\n\n/**\n * @param {*}      value\n * @param {String} key\n * @param {Model}  data\n *\n * @throw {SyntaxError}\n */\nexport function IPv4(value, key, data) {\n\n    value = (value + '').split('.').filter( Boolean );\n\n    if (\n        (value.length !== 4)  ||\n        !value.every(number => (\n            /^[\\dxA-Fa-f]+$/.test( number )  &&\n            (number > -1  &&  number < 256)\n        ))\n    )\n        throw SyntaxError(\n            `\"${key}\" of ${typeOf( data )} should be an IPv4 address`\n        );\n}\n\n\n/**\n * @param {*}      value\n * @param {String} key\n * @param {Model}  data\n *\n * @throw {SyntaxError}\n */\nexport function IPv6(value, key, data) {\n\n    const v4 = (/^::ffff:(\\S+)/i.exec( value ) || '')[1];\n\n    if ( v4 )\n        try {  IPv4(v4, key, data);  return;  } catch (error) {/**/}\n\n    else if (! (/::/g.exec( value ) || '')[1]) {\n\n        value = value.split( /::|:/ );\n\n        if (\n            (value.length > 1 && value.length < 9)  &&\n            value.every(number => {\n\n                number = parseInt(number, 16);\n\n                return (\n                    /^[\\da-fA-F]+$/.test( number )  &&\n                    (number > -1  &&  number < 65536)\n                );\n            })\n        )\n            return;\n    }\n\n    throw SyntaxError(\n        `\"${key}\" of ${typeOf( data )} should be an IPv6 address`\n    );\n}\n\n\n/**\n * Validator for IP address\n *\n * @param {*}      value\n * @param {String} key\n * @param {Model}  data\n *\n * @throw {SyntaxError}\n */\nexport function IPA(value, key, data) {\n    try {\n        IPv4(value, key, data);\n\n    } catch (error) {\n        try {\n            IPv6(value, key, data);\n\n        } catch (error) {\n\n            throw SyntaxError(\n                `\"${key}\" of ${typeOf( data )} should be an IP address`\n            );\n        }\n    }\n}\n\n\n/**\n * @param {*}      value\n * @param {String} key\n * @param {Model}  data\n *\n * @throw {URIError}\n */\nexport function HTTP_URL(value, key, data) {\n\n    const [_, domain, port] =  // eslint-disable-line\n        /^(?:https?:)?\\/\\/(?:\\S+?(?::\\S+?)?@)?([\\w-.]+)(?::(\\d{1,5}))?/\n            .exec( value )  ||  [ ];\n\n    if (port > -1  &&  port < 65536) {\n\n        if (/\\.\\d\\w+$/.test(domain || ''))\n            try {  IPA(domain, key, data);  return;  } catch (error) {/**/}\n        else\n            return;\n    }\n\n    throw URIError(\n        `\"${key}\" of ${typeOf( data )} should be a HTTP URL`\n    );\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/source/scheme/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "Range",
+    "memberof": "source/scheme/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/scheme/index.js~Range",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{Range}",
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "-Infinity",
+        "defaultRaw": "-Infinity",
+        "name": "min",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "+Infinity",
+        "defaultRaw": "+Infinity",
+        "name": "max",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1",
+        "defaultRaw": 1,
+        "name": "step",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ModelValueHandler"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "Email",
+    "memberof": "source/scheme/index.js",
+    "static": true,
+    "longname": "source/scheme/index.js~Email",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{Email}",
+    "description": "",
+    "lineNumber": 28,
+    "type": {
+      "nullable": null,
+      "types": [
+        "RegExp"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "URI",
+    "memberof": "source/scheme/index.js",
+    "static": true,
+    "longname": "source/scheme/index.js~URI",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{URI}",
+    "description": "",
+    "lineNumber": 33,
+    "type": {
+      "nullable": null,
+      "types": [
+        "RegExp"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "Phone",
+    "memberof": "source/scheme/index.js",
+    "static": true,
+    "longname": "source/scheme/index.js~Phone",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{Phone}",
+    "description": "",
+    "lineNumber": 38,
+    "type": {
+      "nullable": null,
+      "types": [
+        "RegExp"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "IPv4",
+    "memberof": "source/scheme/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/scheme/index.js~IPv4",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{IPv4}",
+    "description": "",
+    "lineNumber": 48,
+    "unknown": [
+      {
+        "tagName": "@throw",
+        "tagValue": "{SyntaxError}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Model"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "IPv6",
+    "memberof": "source/scheme/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/scheme/index.js~IPv6",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{IPv6}",
+    "description": "",
+    "lineNumber": 72,
+    "unknown": [
+      {
+        "tagName": "@throw",
+        "tagValue": "{SyntaxError}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Model"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "IPA",
+    "memberof": "source/scheme/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/scheme/index.js~IPA",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{IPA}",
+    "description": "Validator for IP address",
+    "lineNumber": 113,
+    "unknown": [
+      {
+        "tagName": "@throw",
+        "tagValue": "{SyntaxError}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Model"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "HTTP_URL",
+    "memberof": "source/scheme/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/scheme/index.js~HTTP_URL",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/scheme/index.js",
+    "importStyle": "{HTTP_URL}",
+    "description": "",
+    "lineNumber": 138,
+    "unknown": [
+      {
+        "tagName": "@throw",
+        "tagValue": "{URIError}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Model"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "source/utility/index.js",
+    "content": "const { toString } = Object.prototype;\n\n/**\n * @param {*} object\n *\n * @return {String} Class name\n */\nexport function typeOf(object) {\n\n    return  object.constructor.name  ||  toString.call( object ).slice(8, -1);\n}\n\n\n/**\n * @param {Function} func\n *\n * @return {Boolean}\n */\nexport function isClass(func) {  return  /^class\\W/.test(func + '');  }\n\n\n/**\n * @param {*} object\n *\n * @yield {Object}\n */\nexport function* walkPrototype(object) {\n\n    while (object = Object.getPrototypeOf( object ))  yield object;\n}\n\n\n/**\n * @typedef {Object} DecoratorDescriptor\n *\n * @property {String}                kind         - `class`, `field` or `method`\n * @property {String}                [key]        - Member name\n * @property {String}                [placement]  - `static` or `prototype`\n * @property {Object}                [descriptor] - Last parameter of `Object.defineProperty()`\n * @property {DecoratorDescriptor[]} [elements]   - Class members\n */\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/source/utility/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "toString",
+    "memberof": "source/utility/index.js",
+    "static": true,
+    "longname": "source/utility/index.js~toString",
+    "access": "public",
+    "export": false,
+    "importPath": "data-scheme/source/utility/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "typeOf",
+    "memberof": "source/utility/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/utility/index.js~typeOf",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/utility/index.js",
+    "importStyle": "{typeOf}",
+    "description": "",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "object",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "Class name"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "isClass",
+    "memberof": "source/utility/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/utility/index.js~isClass",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/utility/index.js",
+    "importStyle": "{isClass}",
+    "description": "",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "func",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "walkPrototype",
+    "memberof": "source/utility/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "source/utility/index.js~walkPrototype",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/utility/index.js",
+    "importStyle": "{walkPrototype}",
+    "description": "",
+    "lineNumber": 27,
+    "unknown": [
+      {
+        "tagName": "@yield",
+        "tagValue": "{Object}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "object",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "typedef",
+    "name": "DecoratorDescriptor",
+    "memberof": "source/utility/index.js",
+    "static": true,
+    "longname": "source/utility/index.js~DecoratorDescriptor",
+    "access": "public",
+    "description": "",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "kind",
+        "description": "`class`, `field` or `method`"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "key",
+        "description": "Member name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "placement",
+        "description": "`static` or `prototype`"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "descriptor",
+        "description": "Last parameter of `Object.defineProperty()`"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "DecoratorDescriptor[]"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "elements",
+        "description": "Class members"
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "DecoratorDescriptor"
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "source/validator.js",
+    "content": "import { typeOf, isClass } from './utility/index';\n\nimport Model from './Model';\n\nimport { trigger } from './hook/index';\n\n\nconst base_type = [Number, String, Boolean, Date, RegExp, Object, Array];\n\nfunction check(value, condition, key, data) {\n\n    const type = typeOf( data );\n\n    if (base_type.includes( condition )  ||  isClass( condition )) {\n\n        if (Object(value) instanceof String)  try {\n\n            value = JSON.parse( value );\n\n        } catch (error) {/**/}\n\n        value = Object( value );\n\n        if (\n            (condition === Object)  ?\n                (value.constructor !== Object)  :  !(value instanceof condition)\n        )\n            throw TypeError(`\"${key}\" of ${type} should be ${condition.name}`);\n\n    } else if (condition instanceof Function) {\n        /**\n         * Throw an Error is recommended when something is wrong\n         *\n         * @typedef {function(value: *, key: String, data: Model): void} ModelValueHandler\n         */\n        condition(value, key, data);\n\n    } else if (condition instanceof RegExp) {\n\n        if (! condition.test(value + ''))\n            throw TypeError(`\"${key}\" of ${type} should match /${condition.source}/`);\n\n    } else if (condition instanceof Array)\n        if (! condition.includes( value ))\n            throw TypeError(`\"${key}\" of ${type} should be in ${condition.join(', ')}`);\n}\n\n/**\n * Field Decorator to validate the value of Setter\n *\n * @param {Function|RegExp|Array|ModelValueHandler} condition\n * @param {*}                                       [defaultValue]\n *\n * @return {function(meta: DecoratorDescriptor): void}\n */\nexport function is(condition, defaultValue) {\n\n    return  meta => {\n\n        const { kind, placement, key, descriptor } = meta;\n\n        const origin = descriptor.set;\n\n        descriptor.set = function (value) {\n\n            value = (value != null) ? value : defaultValue;\n\n            if (!(value != null))  return this.delete( key );\n\n            if (condition.prototype instanceof Model)\n                value = new condition( value );\n            else\n                check(value, condition, key, this);\n\n            origin.call(this, value);\n        };\n\n        meta.finisher = Class => {\n\n            trigger('is',  {Class, kind, placement, key, descriptor});\n        };\n    };\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/source/validator.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "base_type",
+    "memberof": "source/validator.js",
+    "static": true,
+    "longname": "source/validator.js~base_type",
+    "access": "public",
+    "export": false,
+    "importPath": "data-scheme/source/validator.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "check",
+    "memberof": "source/validator.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/validator.js~check",
+    "access": "public",
+    "export": false,
+    "importPath": "data-scheme/source/validator.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "value",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "condition",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "data",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "typedef",
+    "name": "ModelValueHandler",
+    "memberof": "source/validator.js",
+    "static": true,
+    "longname": "source/validator.js~ModelValueHandler",
+    "access": "public",
+    "description": "Throw an Error is recommended when something is wrong",
+    "lineNumber": 36,
+    "type": {
+      "types": [
+        "function(value: *, key: String, data: Model): void"
+      ],
+      "optional": false,
+      "name": "ModelValueHandler"
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "is",
+    "memberof": "source/validator.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "source/validator.js~is",
+    "access": "public",
+    "export": true,
+    "importPath": "data-scheme/source/validator.js",
+    "importStyle": "{is}",
+    "description": "Field Decorator to validate the value of Setter",
+    "lineNumber": 56,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function",
+          "RegExp",
+          "Array",
+          "ModelValueHandler"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "condition",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "defaultValue",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function(meta: DecoratorDescriptor): void"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Data Scheme\n\n**Data Model** framework based on [ECMAScript Decorator proposal](https://github.com/tc39/proposal-decorators)\n\n[![NPM Dependency](https://david-dm.org/TechQuery/DataScheme.svg)](https://david-dm.org/TechQuery/DataScheme)\n[![Build Status](https://travis-ci.com/TechQuery/DataScheme.svg?branch=master)](https://travis-ci.com/TechQuery/DataScheme)\n[![](https://data.jsdelivr.com/v1/package/npm/data-scheme/badge?style=rounded)](https://www.jsdelivr.com/package/npm/data-scheme)\n\n[![NPM](https://nodei.co/npm/data-scheme.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/data-scheme/)\n\n\n\n## Basic Example\n\n[`User.js`](https://tech-query.me/DataScheme/test-file/test/source/User.js.html)\n\n```JavaScript\nimport Model, { mapGetter, is, Range, Email, Phone, URL } from 'data-scheme';\n\n\n@mapGetter\nexport default  class User extends Model {\n\n    @is(/^[\\w-]{3,20}$/, '')\n    set name(value) {  this.set('name', value);  }\n\n    @is(Email, '')\n    set email(value) {  this.set('email', value);  }\n\n    @is( Phone )\n    set phone(value) {  this.set('phone', value);  }\n\n    @is([0, 1, 2],  2)\n    set gender(value) {  this.set('gender', value);  }\n\n    @is(Range( 1900 ))\n    set birthYear(value) {  this.set('birthYear', value);  }\n\n    @is(URL, 'http://example.com/test.jpg')\n    set avatar(value) {  this.set('avatar', value);  }\n\n    @is( URL )\n    set URL(value) {  this.set('URL', value);  }\n\n    @is( String )\n    set description(value) {  this.set('description', value);  }\n}\n```\n\n`index.js`\n\n```JavaScript\nimport User from './User';\n\nconst user = new User({\n    name:   'test',\n    email:  'test@example.com'\n});\n\nuser.phone = '+86-028-88888888';\n\nconsole.log( user.valueOf() );\n```\n\n**Console output**\n\n```JSON\n{\n    \"name\": \"test\",\n    \"email\": \"test@example.com\",\n    \"gender\": 2,\n    \"avatar\": \"http://example.com/test.jpg\",\n    \"phone\": \"+86-028-88888888\"\n}\n```\n\n\n## Installation\n\n```Shell\nnpm install data-scheme @babel/polyfill\n\nnpm install -D \\\n    @babel/cli \\\n    @babel/core \\\n    @babel/preset-env \\\n    @babel/plugin-proposal-decorators\n```\n\n`.babelrc`\n\n```JSON\n{\n    \"presets\": [\n        \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n        [\n            \"@babel/plugin-proposal-decorators\",\n            {\n                \"decoratorsBeforeExport\": true\n            }\n        ]\n    ]\n}\n```\n\n\n## Advanced usage\n\n - [Scheme Helper](https://tech-query.me/DataScheme/file/source/scheme.js.html)\n\n - [Inherited & Nested Model](https://tech-query.me/DataScheme/test-file/test/source/User.js.html#lineNumber33)\n\n\n### Observe Values changing\n\n```JavaScript\nimport User from './User';\n\nconst user = new User({\n    name:   'test',\n    email:  'test@example.com'\n});\n\nuser.observe({\n    name(value, oldValue) {\n\n        console.log(value, oldValue);    //  'example' 'test'\n    }\n});\n\nuser.name = 'example';\n```\n\n### Decorator hook\n\n`hook.js`\n\n```JavaScript\nimport { listen } from 'data-scheme';\n\nlisten('HTTP',  ({Class, method, path, contentType}) =>\n    console.log(Class, method, path, contentType)\n);\n```\n\n`User.js`\n\n```JavaScript\nimport Model, { mapGetter, HTTP } from 'data-scheme';\n\n@HTTP('POST', '/user')\n@HTTP('GET', '/user')\n@mapGetter\nexport default  class User extends Model {\n    //  Field defination\n}\n```\n\n`index.js`\n\n```JavaScript\nimport './hook';\n\nimport User from './User';\n```\n\n\n## Learn more\n\n 1. [Meta programming](https://github.com/tc39/proposal-decorators/blob/master/METAPROGRAMMING.md)\n\n 2. [Decorator API (Stage-2)](https://github.com/tc39/proposal-decorators/blob/master/TAXONOMY.md)\n",
+    "longname": "/home/travis/build/TechQuery/DataScheme/ReadMe.md",
+    "name": "./ReadMe.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"data-scheme\",\n  \"version\": \"0.7.3\",\n  \"description\": \"Data Model framework based on ECMAScript Decorator proposal\",\n  \"keywords\": [\n    \"data\",\n    \"scheme\",\n    \"schema\",\n    \"model\",\n    \"framework\",\n    \"ecmascript\",\n    \"decorator\"\n  ],\n  \"author\": \"shiy2008@gmail.com\",\n  \"license\": \"LGPL-3.0\",\n  \"homepage\": \"https://tech-query.me/DataScheme/\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/TechQuery/DataScheme.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/TechQuery/DataScheme/issues\"\n  },\n  \"main\": \"dist/data-scheme.min.js\",\n  \"module\": \"source/index.js\",\n  \"engines\": {\n    \"node\": \"^6.3.0\"\n  },\n  \"scripts\": {\n    \"lint\": \"eslint source/ test/ --fix\",\n    \"test\": \"mocha --exit\",\n    \"debug\": \"mocha --inspect-brk\",\n    \"pack\": \"amd-bundle source/index dist/data-scheme -m\",\n    \"build\": \"npm run lint  &&  npm test  &&  npm run pack  &&  esdoc\",\n    \"start\": \"esdoc  &&  web-server docs/ -o\",\n    \"prepublishOnly\": \"npm run build\"\n  },\n  \"husky\": {\n    \"hooks\": {\n      \"pre-commit\": \"npm run build  &&  git add .\"\n    }\n  },\n  \"peerDependencies\": {\n    \"@babel/polyfill\": \"^7.2.5\"\n  },\n  \"devDependencies\": {\n    \"@babel/plugin-proposal-decorators\": \"^7.3.0\",\n    \"@babel/polyfill\": \"^7.2.5\",\n    \"@babel/preset-env\": \"^7.3.4\",\n    \"@babel/register\": \"^7.0.0\",\n    \"amd-bundle\": \"^1.7.7\",\n    \"babel-eslint\": \"^10.0.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.15.1\",\n    \"husky\": \"^1.3.1\",\n    \"koapache\": \"^1.0.6\",\n    \"mocha\": \"^6.0.2\",\n    \"should\": \"^13.2.3\",\n    \"should-sinon\": \"0.0.6\",\n    \"sinon\": \"^7.2.7\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n      [\n        \"@babel/plugin-proposal-decorators\",\n        {\n          \"decoratorsBeforeExport\": true\n        }\n      ]\n    ]\n  }\n}\n",
+    "longname": "/home/travis/build/TechQuery/DataScheme/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "__docId__": 86,
+    "kind": "testFile",
+    "name": "test/Model.js",
+    "content": "import { HTTP_hook, is_hook } from './source/hook';\n\nimport User, { Admin } from './source/User';\n\nimport { spy } from 'sinon';\n\n\nconst key_list = [\n    'name', 'email', 'phone', 'gender', 'birthYear', 'avatar', 'URL', 'description'\n];\n\nvar user;\n\ndescribe('Scheme class',  () => {\n    /**\n     * @test {mapGetter}\n     */\n    it('Getter / Setter pairs',  () =>\n\n        Object.entries( Object.getOwnPropertyDescriptors( User.prototype ) )\n            .filter(item  =>  item[1].set && item[1].get)\n            .map(([ key ])  =>  key)\n            .should.be.eql( key_list )\n    );\n\n    /**\n     * @test {is}\n     */\n    it('Required field',  () =>\n\n        (() => new User()).should.throw(\n            new TypeError('\"name\" of User should match /^[\\\\w-]{3,20}$/')\n        )\n    );\n\n    /**\n     * @test {is}\n     * @test {Model#forEach}\n     */\n    it('Default value',  () => {\n\n        user = new User({email: 'test@example.com', name: 'test'});\n\n        user.valueOf().should.be.eql({\n            name:    'test',\n            email:   'test@example.com',\n            gender:  2,\n            avatar:  'http://example.com/test.jpg'\n        });\n    });\n\n    /**\n     * @test {is}\n     */\n    it('Basic Data type',  () =>\n\n        (() => user.description = 1).should.throw(\n            new TypeError('\"description\" of User should be String')\n        )\n    );\n\n    /**\n     * @test {Range}\n     */\n    it('Number range',  () =>\n\n        (() => user.birthYear = 1898).should.throw(\n            new RangeError(\n                '\"birthYear\" of User should be in range of [1900, Infinity] with step 1'\n            )\n        )\n    );\n\n    /**\n     * @test {Model#forEach}\n     * @test {is}\n     */\n    it('Inherited & Nested Model',  () =>\n\n        (new Admin({email: 'admin@example.com', name: 'admin'})).valueOf()\n            .should.be.eql({\n                name:    'admin',\n                email:   'admin@example.com',\n                level:   1,\n                author:  {\n                    user:  2,\n                    post:  2,\n                    file:  1,\n                    log:   0\n                },\n                gender:  2,\n                avatar:  'http://example.com/admin.jpg'\n            })\n    );\n\n    /**\n     * @test {HTTP}\n     * @test {listen}\n     * @test {trigger}\n     */\n    it('Decorator Hook',  () => {\n\n        HTTP_hook.should.match([\n            {\n                Class:        User,\n                method:       'GET',\n                path:         '/user',\n                contentType:  'application/json'\n            },\n            {\n                Class:        User,\n                method:       'POST',\n                path:         '/user',\n                contentType:  'application/json'\n            }\n        ]);\n\n        is_hook.should.be.eql( key_list );\n    });\n\n    /**\n     * @test {Model#observe}\n     * @test {Model#set}\n     */\n    it('Observe key-value changed',  () => {\n\n        const handler = {name: spy()};\n\n        user.observe( handler );\n\n        user.name = 'example', user.name = 'example';\n\n        handler.name.should.be.calledOnce();\n        handler.name.should.be.calledWith('example', 'test');\n    });\n});\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/test/Model.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "test",
+    "name": "describe0",
+    "testId": 0,
+    "memberof": "test/Model.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "test/Model.js~describe0",
+    "access": null,
+    "description": "Scheme class",
+    "lineNumber": 14
+  },
+  {
+    "__docId__": 88,
+    "kind": "test",
+    "name": "it1",
+    "testId": 1,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it1",
+    "access": null,
+    "description": "Getter / Setter pairs",
+    "lineNumber": 18,
+    "testTargets": [
+      "mapGetter"
+    ]
+  },
+  {
+    "__docId__": 89,
+    "kind": "test",
+    "name": "it2",
+    "testId": 2,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it2",
+    "access": null,
+    "description": "Required field",
+    "lineNumber": 29,
+    "testTargets": [
+      "is"
+    ]
+  },
+  {
+    "__docId__": 90,
+    "kind": "test",
+    "name": "it3",
+    "testId": 3,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it3",
+    "access": null,
+    "description": "Default value",
+    "lineNumber": 40,
+    "testTargets": [
+      "is",
+      "Model#forEach"
+    ]
+  },
+  {
+    "__docId__": 91,
+    "kind": "test",
+    "name": "it4",
+    "testId": 4,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it4",
+    "access": null,
+    "description": "Basic Data type",
+    "lineNumber": 55,
+    "testTargets": [
+      "is"
+    ]
+  },
+  {
+    "__docId__": 92,
+    "kind": "test",
+    "name": "it5",
+    "testId": 5,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it5",
+    "access": null,
+    "description": "Number range",
+    "lineNumber": 65,
+    "testTargets": [
+      "Range"
+    ]
+  },
+  {
+    "__docId__": 93,
+    "kind": "test",
+    "name": "it6",
+    "testId": 6,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it6",
+    "access": null,
+    "description": "Inherited & Nested Model",
+    "lineNumber": 78,
+    "testTargets": [
+      "Model#forEach",
+      "is"
+    ]
+  },
+  {
+    "__docId__": 94,
+    "kind": "test",
+    "name": "it7",
+    "testId": 7,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it7",
+    "access": null,
+    "description": "Decorator Hook",
+    "lineNumber": 101,
+    "testTargets": [
+      "HTTP",
+      "listen",
+      "trigger"
+    ]
+  },
+  {
+    "__docId__": 95,
+    "kind": "test",
+    "name": "it8",
+    "testId": 8,
+    "memberof": "test/Model.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/Model.js~describe0.it8",
+    "access": null,
+    "description": "Observe key-value changed",
+    "lineNumber": 125,
+    "testTargets": [
+      "Model#observe",
+      "Model#set"
+    ]
+  },
+  {
+    "__docId__": 96,
+    "kind": "testFile",
+    "name": "test/scheme.js",
+    "content": "import Server from './source/Server';\n\n\nconst server = new Server();\n\n\ndescribe('Scheme validator',  () => {\n    /**\n     * @test {IPv4}\n     */\n    it('IP v4',  () =>\n        (() => server.IPv4 = '192.168.0.0x100').should.throw(\n            new SyntaxError('\"IPv4\" of Server should be an IPv4 address')\n        )\n    );\n\n    /**\n     * @test {IPv6}\n     */\n    it('IP v6',  () => {\n\n        (() => server.IPv6 = '2001:DB8:2de::10000').should.throw(\n            new SyntaxError('\"IPv6\" of Server should be an IPv6 address')\n        );\n\n        (() => server.IPv6 = '::ffff:192.168.0.256').should.throw(\n            new SyntaxError('\"IPv6\" of Server should be an IPv6 address')\n        );\n    });\n\n    /**\n     * @test {HTTP_URL}\n     */\n    it('HTTP URL',  () =>\n        (() => server.URL = 'http://test:test@192.168.0.255:65536').should.throw(\n            new URIError('\"URL\" of Server should be a HTTP URL')\n        )\n    );\n});\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/test/scheme.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "test",
+    "name": "describe9",
+    "testId": 9,
+    "memberof": "test/scheme.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "test/scheme.js~describe9",
+    "access": null,
+    "description": "Scheme validator",
+    "lineNumber": 7
+  },
+  {
+    "__docId__": 98,
+    "kind": "test",
+    "name": "it10",
+    "testId": 10,
+    "memberof": "test/scheme.js~describe9",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/scheme.js~describe9.it10",
+    "access": null,
+    "description": "IP v4",
+    "lineNumber": 11,
+    "testTargets": [
+      "IPv4"
+    ]
+  },
+  {
+    "__docId__": 99,
+    "kind": "test",
+    "name": "it11",
+    "testId": 11,
+    "memberof": "test/scheme.js~describe9",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/scheme.js~describe9.it11",
+    "access": null,
+    "description": "IP v6",
+    "lineNumber": 20,
+    "testTargets": [
+      "IPv6"
+    ]
+  },
+  {
+    "__docId__": 100,
+    "kind": "test",
+    "name": "it12",
+    "testId": 12,
+    "memberof": "test/scheme.js~describe9",
+    "testDepth": 1,
+    "static": true,
+    "longname": "test/scheme.js~describe9.it12",
+    "access": null,
+    "description": "HTTP URL",
+    "lineNumber": 34,
+    "testTargets": [
+      "HTTP_URL"
+    ]
+  },
+  {
+    "__docId__": 101,
+    "kind": "testFile",
+    "name": "test/source/Server.js",
+    "content": "import Model, { mapGetter, is, IPv4, IPv6, HTTP_URL } from '../../source';\n\n\n@mapGetter\nexport default  class Server extends Model {\n\n    @is( IPv4 )\n    set IPv4(value) {  this.set('IPv4', value);  }\n\n    @is( IPv6 )\n    set IPv6(value) {  this.set('IPv6', value);  }\n\n    @is( HTTP_URL )\n    set URL(value) {  this.set('URL', value);  }\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/test/source/Server.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 102,
+    "kind": "testFile",
+    "name": "test/source/User.js",
+    "content": "import Model, { mapGetter, is, Range, Email, Phone, URI, HTTP } from '../../source';\n\n\n@HTTP('POST', '/user')\n@HTTP('GET', '/user')\n@mapGetter\nexport default  class User extends Model {\n\n    @is(/^[\\w-]{3,20}$/, '')\n    set name(value) {  this.set('name', value);  }\n\n    @is(Email, '')\n    set email(value) {  this.set('email', value);  }\n\n    @is( Phone )\n    set phone(value) {  this.set('phone', value);  }\n\n    @is([0, 1, 2],  2)\n    set gender(value) {  this.set('gender', value);  }\n\n    @is(Range( 1900 ))\n    set birthYear(value) {  this.set('birthYear', value);  }\n\n    @is(URI, 'http://example.com/test.jpg')\n    set avatar(value) {  this.set('avatar', value);  }\n\n    @is( URI )\n    set URL(value) {  this.set('URL', value);  }\n\n    @is( String )\n    set description(value) {  this.set('description', value);  }\n}\n\n\n@mapGetter\nexport class Author extends Model {\n\n    @is(Range(0, 3), 2)\n    set user(value) {  this.set('user', value);  }\n\n    @is(Range(0, 3), 2)\n    set post(value) {  this.set('post', value);  }\n\n    @is(Range(0, 3), 1)\n    set file(value) {  this.set('file', value);  }\n\n    @is(Range(0, 3), 0)\n    set log(value) {  this.set('log', value);  }\n}\n\n\n@mapGetter\nexport class Admin extends User {\n\n    @is(Range(0), 1)\n    set level(value) {  this.set('level', value);  }\n\n    @is(Author, { })\n    set author(value) {  this.set('author', value);  }\n\n    @is(URI, 'http://example.com/admin.jpg')\n    set avatar(value) {  this.set('avatar', value);  }\n}\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/test/source/User.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 103,
+    "kind": "testFile",
+    "name": "test/source/hook.js",
+    "content": "import { listen } from '../../source';\n\n\nexport const HTTP_hook = [ ], is_hook = [ ];\n\n\nlisten('HTTP',  data => HTTP_hook.push( data ));\n\nlisten('is',  ({ Class, key }) =>\n    (Class.name === 'User')  &&  is_hook.push( key )\n);\n",
+    "static": true,
+    "longname": "/home/travis/build/TechQuery/DataScheme/test/source/hook.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  }
+]

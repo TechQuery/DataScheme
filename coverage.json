@@ -1,0 +1,42 @@
+{
+  "coverage": "79.31%",
+  "expectCount": 29,
+  "actualCount": 23,
+  "files": {
+    "source/Model.js": {
+      "expectCount": 10,
+      "actualCount": 8,
+      "undocumentLines": [
+        4,
+        19
+      ]
+    },
+    "source/hook/index.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "source/scheme/index.js": {
+      "expectCount": 8,
+      "actualCount": 8,
+      "undocumentLines": []
+    },
+    "source/utility/index.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "source/validator.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        8,
+        10
+      ]
+    }
+  }
+}

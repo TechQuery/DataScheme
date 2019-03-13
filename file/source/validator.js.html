@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">source/validator.js | data-scheme</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Data Model framework based on ECMAScript Decorator proposal"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="data-scheme"><meta property="twitter:description" content="Data Model framework based on ECMAScript Decorator proposal"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/TechQuery/DataScheme"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/source/Model.js~Model.html">Model</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mapGetter">mapGetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-is">is</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ValueChangedHandler">ValueChangedHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ModelValueHandler">ModelValueHandler</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#hook">hook</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HTTP">HTTP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-listen">listen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trigger">trigger</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#scheme">scheme</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HTTP_URL">HTTP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPA">IPA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPv4">IPv4</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPv6">IPv6</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Range">Range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Email">Email</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Phone">Phone</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URI">URI</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utility">utility</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isClass">isClass</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-typeOf">typeOf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-walkPrototype">walkPrototype</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-DecoratorDescriptor">DecoratorDescriptor</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">source/validator.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { typeOf, isClass } from &apos;./utility/index&apos;;
+
+import Model from &apos;./Model&apos;;
+
+import { trigger } from &apos;./hook/index&apos;;
+
+
+const base_type = [Number, String, Boolean, Date, RegExp, Object, Array];
+
+function check(value, condition, key, data) {
+
+    const type = typeOf( data );
+
+    if (base_type.includes( condition )  ||  isClass( condition )) {
+
+        if (Object(value) instanceof String)  try {
+
+            value = JSON.parse( value );
+
+        } catch (error) {/**/}
+
+        value = Object( value );
+
+        if (
+            (condition === Object)  ?
+                (value.constructor !== Object)  :  !(value instanceof condition)
+        )
+            throw TypeError(`&quot;${key}&quot; of ${type} should be ${condition.name}`);
+
+    } else if (condition instanceof Function) {
+        /**
+         * Throw an Error is recommended when something is wrong
+         *
+         * @typedef {function(value: *, key: String, data: Model): void} ModelValueHandler
+         */
+        condition(value, key, data);
+
+    } else if (condition instanceof RegExp) {
+
+        if (! condition.test(value + &apos;&apos;))
+            throw TypeError(`&quot;${key}&quot; of ${type} should match /${condition.source}/`);
+
+    } else if (condition instanceof Array)
+        if (! condition.includes( value ))
+            throw TypeError(`&quot;${key}&quot; of ${type} should be in ${condition.join(&apos;, &apos;)}`);
+}
+
+/**
+ * Field Decorator to validate the value of Setter
+ *
+ * @param {Function|RegExp|Array|ModelValueHandler} condition
+ * @param {*}                                       [defaultValue]
+ *
+ * @return {function(meta: DecoratorDescriptor): void}
+ */
+export function is(condition, defaultValue) {
+
+    return  meta =&gt; {
+
+        const { kind, placement, key, descriptor } = meta;
+
+        const origin = descriptor.set;
+
+        descriptor.set = function (value) {
+
+            value = (value != null) ? value : defaultValue;
+
+            if (!(value != null))  return this.delete( key );
+
+            if (condition.prototype instanceof Model)
+                value = new condition( value );
+            else
+                check(value, condition, key, this);
+
+            origin.call(this, value);
+        };
+
+        meta.finisher = Class =&gt; {
+
+            trigger(&apos;is&apos;,  {Class, kind, placement, key, descriptor});
+        };
+    };
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

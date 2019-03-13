@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">test/Model.js | data-scheme</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Data Model framework based on ECMAScript Decorator proposal"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="data-scheme"><meta property="twitter:description" content="Data Model framework based on ECMAScript Decorator proposal"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/TechQuery/DataScheme"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/source/Model.js~Model.html">Model</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mapGetter">mapGetter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-is">is</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ValueChangedHandler">ValueChangedHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ModelValueHandler">ModelValueHandler</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#hook">hook</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HTTP">HTTP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-listen">listen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trigger">trigger</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#scheme">scheme</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HTTP_URL">HTTP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPA">IPA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPv4">IPv4</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-IPv6">IPv6</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Range">Range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Email">Email</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Phone">Phone</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URI">URI</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utility">utility</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isClass">isClass</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-typeOf">typeOf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-walkPrototype">walkPrototype</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-DecoratorDescriptor">DecoratorDescriptor</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">test/Model.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { HTTP_hook, is_hook } from &apos;./source/hook&apos;;
+
+import User, { Admin } from &apos;./source/User&apos;;
+
+import { spy } from &apos;sinon&apos;;
+
+
+const key_list = [
+    &apos;name&apos;, &apos;email&apos;, &apos;phone&apos;, &apos;gender&apos;, &apos;birthYear&apos;, &apos;avatar&apos;, &apos;URL&apos;, &apos;description&apos;
+];
+
+var user;
+
+describe(&apos;Scheme class&apos;,  () =&gt; {
+    /**
+     * @test {mapGetter}
+     */
+    it(&apos;Getter / Setter pairs&apos;,  () =&gt;
+
+        Object.entries( Object.getOwnPropertyDescriptors( User.prototype ) )
+            .filter(item  =&gt;  item[1].set &amp;&amp; item[1].get)
+            .map(([ key ])  =&gt;  key)
+            .should.be.eql( key_list )
+    );
+
+    /**
+     * @test {is}
+     */
+    it(&apos;Required field&apos;,  () =&gt;
+
+        (() =&gt; new User()).should.throw(
+            new TypeError(&apos;&quot;name&quot; of User should match /^[\\w-]{3,20}$/&apos;)
+        )
+    );
+
+    /**
+     * @test {is}
+     * @test {Model#forEach}
+     */
+    it(&apos;Default value&apos;,  () =&gt; {
+
+        user = new User({email: &apos;test@example.com&apos;, name: &apos;test&apos;});
+
+        user.valueOf().should.be.eql({
+            name:    &apos;test&apos;,
+            email:   &apos;test@example.com&apos;,
+            gender:  2,
+            avatar:  &apos;http://example.com/test.jpg&apos;
+        });
+    });
+
+    /**
+     * @test {is}
+     */
+    it(&apos;Basic Data type&apos;,  () =&gt;
+
+        (() =&gt; user.description = 1).should.throw(
+            new TypeError(&apos;&quot;description&quot; of User should be String&apos;)
+        )
+    );
+
+    /**
+     * @test {Range}
+     */
+    it(&apos;Number range&apos;,  () =&gt;
+
+        (() =&gt; user.birthYear = 1898).should.throw(
+            new RangeError(
+                &apos;&quot;birthYear&quot; of User should be in range of [1900, Infinity] with step 1&apos;
+            )
+        )
+    );
+
+    /**
+     * @test {Model#forEach}
+     * @test {is}
+     */
+    it(&apos;Inherited &amp; Nested Model&apos;,  () =&gt;
+
+        (new Admin({email: &apos;admin@example.com&apos;, name: &apos;admin&apos;})).valueOf()
+            .should.be.eql({
+                name:    &apos;admin&apos;,
+                email:   &apos;admin@example.com&apos;,
+                level:   1,
+                author:  {
+                    user:  2,
+                    post:  2,
+                    file:  1,
+                    log:   0
+                },
+                gender:  2,
+                avatar:  &apos;http://example.com/admin.jpg&apos;
+            })
+    );
+
+    /**
+     * @test {HTTP}
+     * @test {listen}
+     * @test {trigger}
+     */
+    it(&apos;Decorator Hook&apos;,  () =&gt; {
+
+        HTTP_hook.should.match([
+            {
+                Class:        User,
+                method:       &apos;GET&apos;,
+                path:         &apos;/user&apos;,
+                contentType:  &apos;application/json&apos;
+            },
+            {
+                Class:        User,
+                method:       &apos;POST&apos;,
+                path:         &apos;/user&apos;,
+                contentType:  &apos;application/json&apos;
+            }
+        ]);
+
+        is_hook.should.be.eql( key_list );
+    });
+
+    /**
+     * @test {Model#observe}
+     * @test {Model#set}
+     */
+    it(&apos;Observe key-value changed&apos;,  () =&gt; {
+
+        const handler = {name: spy()};
+
+        user.observe( handler );
+
+        user.name = &apos;example&apos;, user.name = &apos;example&apos;;
+
+        handler.name.should.be.calledOnce();
+        handler.name.should.be.calledWith(&apos;example&apos;, &apos;test&apos;);
+    });
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
